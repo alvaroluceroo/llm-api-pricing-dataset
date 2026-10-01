@@ -2,11 +2,11 @@
   "name": "AI Signal LLM API pricing dataset: current models",
   "publisher": "AI Signal",
   "homepage": "https://aisignalhq.com/data/",
-  "generatedAt": "2026-10-01T06:30:10.315Z",
+  "generatedAt": "2026-10-01T10:10:48.822Z",
   "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
   "attribution": "LLM API pricing data by AI Signal (https://aisignalhq.com/api-pricing/), licensed under CC BY 4.0.",
-  "rowCount": 74,
+  "rowCount": 72,
   "rows": [
     {
       "id": "alibaba/qwen3.7-flash",
@@ -403,28 +403,6 @@
       "pageUrl": "https://aisignalhq.com/models/anthropic-claude-opus-5-5/"
     },
     {
-      "id": "anthropic/claude-sonnet-4-5",
-      "apiId": "claude-sonnet-4-5-20250929",
-      "maker": "anthropic",
-      "makerName": "Anthropic",
-      "name": "Claude Sonnet 4.5",
-      "status": "current",
-      "priceStatus": "priced",
-      "inputPerMTok": 3,
-      "outputPerMTok": 15,
-      "cachedInputPerMTok": 0.3,
-      "cacheWritePerMTok": 3.75,
-      "cacheWrite1hPerMTok": 6,
-      "priceRegion": null,
-      "longPromptTiers": [],
-      "contextWindow": 200000,
-      "maxOutput": 64000,
-      "promotion": null,
-      "verifiedAt": "2026-09-28",
-      "sourceUrl": "https://platform.claude.com/docs/en/about-claude/pricing",
-      "pageUrl": "https://aisignalhq.com/models/anthropic-claude-sonnet-4-5/"
-    },
-    {
       "id": "anthropic/claude-sonnet-4-6",
       "apiId": "claude-sonnet-4-6",
       "maker": "anthropic",
@@ -709,35 +687,6 @@
       "verifiedAt": "2026-09-28",
       "sourceUrl": "https://api-docs.deepseek.com/quick_start/pricing/",
       "pageUrl": "https://aisignalhq.com/models/deepseek-deepseek-flash/"
-    },
-    {
-      "id": "google/gemini-2.5-computer-use-preview",
-      "apiId": "gemini-2.5-computer-use-preview-10-2025",
-      "maker": "google",
-      "makerName": "Google",
-      "name": "Gemini 2.5 Computer Use Preview",
-      "status": "current",
-      "priceStatus": "priced",
-      "inputPerMTok": 1.25,
-      "outputPerMTok": 10,
-      "cachedInputPerMTok": null,
-      "cacheWritePerMTok": null,
-      "cacheWrite1hPerMTok": null,
-      "priceRegion": null,
-      "longPromptTiers": [
-        {
-          "condition": "prompt > 200000 tokens",
-          "input": 2.5,
-          "output": 15,
-          "cachedInput": null
-        }
-      ],
-      "contextWindow": 128000,
-      "maxOutput": 64000,
-      "promotion": null,
-      "verifiedAt": "2026-09-28",
-      "sourceUrl": "https://ai.google.dev/gemini-api/docs/pricing",
-      "pageUrl": "https://aisignalhq.com/models/google-gemini-2.5-computer-use-preview/"
     },
     {
       "id": "google/gemini-2.5-flash",

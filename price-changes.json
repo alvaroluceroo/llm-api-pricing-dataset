@@ -2,11 +2,11 @@
   "name": "AI Signal LLM API pricing dataset: recorded price changes",
   "publisher": "AI Signal",
   "homepage": "https://aisignalhq.com/data/",
-  "generatedAt": "2026-10-01T06:30:10.318Z",
+  "generatedAt": "2026-10-01T10:10:48.825Z",
   "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
   "attribution": "LLM API pricing data by AI Signal (https://aisignalhq.com/api-pricing/), licensed under CC BY 4.0.",
-  "rowCount": 16,
+  "rowCount": 17,
   "rows": [
     {
       "id": "google-flash-promo-ends",
@@ -58,6 +58,21 @@
       "summary": "Gemini 3.6, 3.7 and 3.8 Flash pricing is promotional until December 31, 2026. On January 1, 2027 it doubles: input from $0.75 to $1.50 and output from $3.75 to $7.50 per million tokens, the list prices Google shows next to the promotional ones.",
       "sourceUrl": "https://ai.google.dev/gemini-api/docs/pricing",
       "pageUrl": "https://aisignalhq.com/price-changes/#google-flash-promo-ends"
+    },
+    {
+      "id": "anthropic-haiku-4-5-release-date-correction",
+      "effectiveDate": "2026-10-01",
+      "provider": "anthropic",
+      "kind": "correction",
+      "direction": "none",
+      "multiplier": null,
+      "affects": [
+        "anthropic/claude-haiku-4-5"
+      ],
+      "figures": [],
+      "summary": "Correction of this site's record, not a price change by Anthropic: no price moved. This page gave Claude Haiku 4.5's release date as October 1, 2025; Anthropic's model page, read on October 1, 2026, prints 'Released October 15, 2025', which also matches the retirement commitment on the same page ('Not sooner than October 15, 2026'). The earlier date had no source recorded. The release date shown here was corrected that day.",
+      "sourceUrl": "https://platform.claude.com/docs/en/models/haiku-4-5/overview",
+      "pageUrl": "https://aisignalhq.com/price-changes/#anthropic-haiku-4-5-release-date-correction"
     },
     {
       "id": "anthropic-opus-4-5-release-date-correction",
