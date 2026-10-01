@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+type: dataset
+title: "LLM API pricing dataset"
+abstract: >-
+  Prices of current large language model APIs as published by their makers,
+  with the day each price was last verified and the source page, plus a
+  record of every change to those prices. Mirror of https://aisignalhq.com/data/.
+authors:
+  - name: "AI Signal"
+    website: "https://aisignalhq.com/"
+  - family-names: "Lucero Rufino"
+    given-names: "Álvaro"
+license: CC-BY-4.0
+url: "https://aisignalhq.com/data/"
+repository: "https://github.com/alvaroluceroo/llm-api-pricing-dataset"
+keywords:
+  - llm
+  - api pricing
+  - large language models
+  - dataset

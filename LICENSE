@@ -1,0 +1,31 @@
+LLM API pricing dataset
+Copyright (c) 2026 AI Signal (https://aisignalhq.com/)
+
+The data in this repository (models.json, models.csv and price-changes.json:
+the prices, the dates they were verified and the source pages they were read
+from) is licensed under the Creative Commons Attribution 4.0 International
+License (CC BY 4.0).
+
+You are free to share (copy and redistribute the material in any medium or
+format) and adapt (remix, transform and build upon the material) for any
+purpose, even commercially, under the following term:
+
+  Attribution: you must give appropriate credit, provide a link to the
+  license, and indicate if changes were made.
+
+Suggested attribution:
+
+  LLM API pricing data by AI Signal (https://aisignalhq.com/api-pricing/),
+  licensed under CC BY 4.0.
+
+The full legal text of the license is at:
+
+  https://creativecommons.org/licenses/by/4.0/legalcode
+
+A human-readable summary is at:
+
+  https://creativecommons.org/licenses/by/4.0/
+
+The data is provided as is, without warranties of any kind. Providers change
+prices without notice; confirm a price on the maker's page before relying on
+it.
