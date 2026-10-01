@@ -2,7 +2,7 @@
   "name": "AI Signal LLM API pricing dataset: current models",
   "publisher": "AI Signal",
   "homepage": "https://aisignalhq.com/data/",
-  "generatedAt": "2026-10-01T10:10:48.822Z",
+  "generatedAt": "2026-10-01T10:32:02.580Z",
   "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
   "attribution": "LLM API pricing data by AI Signal (https://aisignalhq.com/api-pricing/), licensed under CC BY 4.0.",
@@ -662,7 +662,7 @@
       "contextWindow": 1000000,
       "maxOutput": 384000,
       "promotion": null,
-      "verifiedAt": "2026-09-28",
+      "verifiedAt": "2026-10-01",
       "sourceUrl": "https://api-docs.deepseek.com/quick_start/pricing/",
       "pageUrl": "https://aisignalhq.com/models/deepseek-deepseek-v4-pro/"
     },
@@ -684,7 +684,7 @@
       "contextWindow": 1000000,
       "maxOutput": 384000,
       "promotion": null,
-      "verifiedAt": "2026-09-28",
+      "verifiedAt": "2026-10-01",
       "sourceUrl": "https://api-docs.deepseek.com/quick_start/pricing/",
       "pageUrl": "https://aisignalhq.com/models/deepseek-deepseek-flash/"
     },
@@ -706,7 +706,7 @@
       "contextWindow": 1048576,
       "maxOutput": 65536,
       "promotion": null,
-      "verifiedAt": "2026-09-28",
+      "verifiedAt": "2026-10-01",
       "sourceUrl": "https://ai.google.dev/gemini-api/docs/pricing",
       "pageUrl": "https://aisignalhq.com/models/google-gemini-2.5-flash/"
     },
@@ -728,7 +728,7 @@
       "contextWindow": 1048576,
       "maxOutput": 65536,
       "promotion": null,
-      "verifiedAt": "2026-09-28",
+      "verifiedAt": "2026-10-01",
       "sourceUrl": "https://ai.google.dev/gemini-api/docs/pricing",
       "pageUrl": "https://aisignalhq.com/models/google-gemini-2.5-flash-lite/"
     },
@@ -757,7 +757,7 @@
       "contextWindow": 1048576,
       "maxOutput": 65536,
       "promotion": null,
-      "verifiedAt": "2026-09-28",
+      "verifiedAt": "2026-10-01",
       "sourceUrl": "https://ai.google.dev/gemini-api/docs/pricing",
       "pageUrl": "https://aisignalhq.com/models/google-gemini-2.5-pro/"
     },
@@ -786,7 +786,7 @@
       "contextWindow": 1048576,
       "maxOutput": 65536,
       "promotion": null,
-      "verifiedAt": "2026-09-28",
+      "verifiedAt": "2026-10-01",
       "sourceUrl": "https://ai.google.dev/gemini-api/docs/pricing",
       "pageUrl": "https://aisignalhq.com/models/google-gemini-3.1-pro-preview/"
     },
@@ -808,7 +808,7 @@
       "contextWindow": 1048576,
       "maxOutput": 65536,
       "promotion": null,
-      "verifiedAt": "2026-09-28",
+      "verifiedAt": "2026-10-01",
       "sourceUrl": "https://ai.google.dev/gemini-api/docs/pricing",
       "pageUrl": "https://aisignalhq.com/models/google-gemini-3.5-flash/"
     },
@@ -830,7 +830,7 @@
       "contextWindow": 1048576,
       "maxOutput": 65536,
       "promotion": null,
-      "verifiedAt": "2026-09-28",
+      "verifiedAt": "2026-10-01",
       "sourceUrl": "https://ai.google.dev/gemini-api/docs/pricing",
       "pageUrl": "https://aisignalhq.com/models/google-gemini-3.5-flash-lite/"
     },
@@ -860,7 +860,7 @@
           "cachedInput": 0.15
         }
       },
-      "verifiedAt": "2026-09-28",
+      "verifiedAt": "2026-10-01",
       "sourceUrl": "https://ai.google.dev/gemini-api/docs/pricing",
       "pageUrl": "https://aisignalhq.com/models/google-gemini-3.6-flash/"
     },
@@ -890,7 +890,7 @@
           "cachedInput": 0.15
         }
       },
-      "verifiedAt": "2026-09-28",
+      "verifiedAt": "2026-10-01",
       "sourceUrl": "https://ai.google.dev/gemini-api/docs/pricing",
       "pageUrl": "https://aisignalhq.com/models/google-gemini-3.7-flash/"
     },
@@ -920,7 +920,7 @@
           "cachedInput": 0.15
         }
       },
-      "verifiedAt": "2026-09-28",
+      "verifiedAt": "2026-10-01",
       "sourceUrl": "https://ai.google.dev/gemini-api/docs/pricing",
       "pageUrl": "https://aisignalhq.com/models/google-gemini-3.8-flash/"
     },
@@ -950,7 +950,7 @@
           "cachedInput": 0.2
         }
       },
-      "verifiedAt": "2026-09-28",
+      "verifiedAt": "2026-10-01",
       "sourceUrl": "https://ai.google.dev/gemini-api/docs/pricing",
       "pageUrl": "https://aisignalhq.com/models/google-gemini-robotics-er-2-preview/"
     },
@@ -980,7 +980,7 @@
           "cachedInput": null
         }
       },
-      "verifiedAt": "2026-09-28",
+      "verifiedAt": "2026-10-01",
       "sourceUrl": "https://ai.google.dev/gemini-api/docs/pricing",
       "pageUrl": "https://aisignalhq.com/models/google-gemini-robotics-er-2-streaming-preview/"
     },
