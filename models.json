@@ -2,11 +2,11 @@
   "name": "AI Signal LLM API pricing dataset: current models",
   "publisher": "AI Signal",
   "homepage": "https://aisignalhq.com/data/",
-  "generatedAt": "2026-10-01T10:32:02.580Z",
+  "generatedAt": "2026-10-02T11:46:03.187Z",
   "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
   "attribution": "LLM API pricing data by AI Signal (https://aisignalhq.com/api-pricing/), licensed under CC BY 4.0.",
-  "rowCount": 72,
+  "rowCount": 71,
   "rows": [
     {
       "id": "alibaba/qwen3.7-flash",
@@ -1269,28 +1269,6 @@
       "verifiedAt": "2026-09-28",
       "sourceUrl": "https://developers.openai.com/api/docs/pricing",
       "pageUrl": "https://aisignalhq.com/models/openai-chat-latest/"
-    },
-    {
-      "id": "openai/gpt-5.3-codex",
-      "apiId": "gpt-5.3-codex",
-      "maker": "openai",
-      "makerName": "OpenAI",
-      "name": "GPT-5.3 Codex",
-      "status": "current",
-      "priceStatus": "priced",
-      "inputPerMTok": 1.75,
-      "outputPerMTok": 14,
-      "cachedInputPerMTok": 0.175,
-      "cacheWritePerMTok": null,
-      "cacheWrite1hPerMTok": null,
-      "priceRegion": null,
-      "longPromptTiers": [],
-      "contextWindow": 400000,
-      "maxOutput": 128000,
-      "promotion": null,
-      "verifiedAt": "2026-09-28",
-      "sourceUrl": "https://developers.openai.com/api/docs/pricing",
-      "pageUrl": "https://aisignalhq.com/models/openai-gpt-5.3-codex/"
     },
     {
       "id": "openai/gpt-5.6-cyber",
