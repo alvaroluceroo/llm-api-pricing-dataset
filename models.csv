@@ -1,5 +1,5 @@
 # AI Signal LLM API pricing dataset: current models. https://aisignalhq.com/data/
-# Generated 2026-10-05T06:14:45.289Z. License: Creative Commons Attribution 4.0 International (CC BY 4.0), https://creativecommons.org/licenses/by/4.0/
+# Generated 2026-10-05T06:54:21.246Z. License: Creative Commons Attribution 4.0 International (CC BY 4.0), https://creativecommons.org/licenses/by/4.0/
 # Attribution: LLM API pricing data by AI Signal (https://aisignalhq.com/api-pricing/), licensed under CC BY 4.0.
 id,apiId,maker,makerName,name,status,priceStatus,inputPerMTok,outputPerMTok,cachedInputPerMTok,cacheWritePerMTok,cacheWrite1hPerMTok,priceRegion,longTierCondition,longTierInputPerMTok,longTierOutputPerMTok,longTierCount,contextWindow,maxOutput,promoEndsOn,promoAtLeastUntil,verifiedAt,sourceUrl,pageUrl
 alibaba/qwen3.7-flash,qwen3.7-flash,alibaba,Alibaba (Qwen),Qwen3.7-Flash,current,priced,0.03,0.13,0.006,,,Singapore (International),prompt > 32000 tokens,0.1,0.4,2,1000000,131072,,,2026-09-17,https://www.alibabacloud.com/help/en/model-studio/qwen3-7-flash,https://aisignalhq.com/models/alibaba-qwen3.7-flash/

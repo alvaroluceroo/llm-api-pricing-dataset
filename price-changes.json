@@ -2,11 +2,11 @@
   "name": "AI Signal LLM API pricing dataset: recorded price changes",
   "publisher": "AI Signal",
   "homepage": "https://aisignalhq.com/data/",
-  "generatedAt": "2026-10-05T06:14:45.297Z",
+  "generatedAt": "2026-10-05T06:54:21.254Z",
   "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
   "attribution": "LLM API pricing data by AI Signal (https://aisignalhq.com/api-pricing/), licensed under CC BY 4.0.",
-  "rowCount": 17,
+  "rowCount": 18,
   "rows": [
     {
       "id": "google-flash-promo-ends",
@@ -58,6 +58,75 @@
       "summary": "Gemini 3.6, 3.7 and 3.8 Flash pricing is promotional until December 31, 2026. On January 1, 2027 it doubles: input from $0.75 to $1.50 and output from $3.75 to $7.50 per million tokens, the list prices Google shows next to the promotional ones.",
       "sourceUrl": "https://ai.google.dev/gemini-api/docs/pricing",
       "pageUrl": "https://aisignalhq.com/price-changes/#google-flash-promo-ends"
+    },
+    {
+      "id": "openai-deprecated-model-pages-price-found",
+      "effectiveDate": "2026-10-05",
+      "provider": "openai",
+      "kind": "correction",
+      "direction": "none",
+      "multiplier": null,
+      "affects": [
+        "openai/gpt-4",
+        "openai/gpt-4-turbo",
+        "openai/gpt-3.5-turbo",
+        "openai/o1",
+        "openai/o1-pro",
+        "openai/o3-mini"
+      ],
+      "figures": [
+        {
+          "model": "openai/gpt-4",
+          "before": null,
+          "after": {
+            "input": 30,
+            "output": 60
+          }
+        },
+        {
+          "model": "openai/gpt-4-turbo",
+          "before": null,
+          "after": {
+            "input": 10,
+            "output": 30
+          }
+        },
+        {
+          "model": "openai/gpt-3.5-turbo",
+          "before": null,
+          "after": {
+            "input": 0.5,
+            "output": 1.5
+          }
+        },
+        {
+          "model": "openai/o1",
+          "before": null,
+          "after": {
+            "input": 15,
+            "output": 60
+          }
+        },
+        {
+          "model": "openai/o1-pro",
+          "before": null,
+          "after": {
+            "input": 150,
+            "output": 600
+          }
+        },
+        {
+          "model": "openai/o3-mini",
+          "before": null,
+          "after": {
+            "input": 1.1,
+            "output": 4.4
+          }
+        }
+      ],
+      "summary": "Correction of our own reading, not a price change by OpenAI. Until October 5, 2026 this site showed GPT-4, GPT-4 Turbo, GPT-3.5 Turbo, o1, o1-pro and o3-mini with no price, because it read OpenAI's pricing page, which no longer lists them, and not their model pages, which still do. Read by hand on October 5, 2026, with the page's 'Batch API price' switch off (Standard prices), the model pages print, per 1M tokens: GPT-4 'Input $30.00 Output $60.00'; GPT-4 Turbo 'Input $10.00 Output $30.00'; GPT-3.5 Turbo 'Input $0.50 Output $1.50'; o1 'Input $15.00 Cached input $7.50 Output $60.00'; o1-pro 'Input $150.00 Output $600.00'; o3-mini 'Input $1.10 Cached input $0.55 Output $4.40'. All six are deprecated and OpenAI shuts them down on October 23, 2026; each row now cites its model page.",
+      "sourceUrl": "https://developers.openai.com/api/docs/deprecations",
+      "pageUrl": "https://aisignalhq.com/price-changes/#openai-deprecated-model-pages-price-found"
     },
     {
       "id": "anthropic-haiku-4-5-release-date-correction",
