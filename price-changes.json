@@ -2,11 +2,11 @@
   "name": "AI Signal LLM API pricing dataset: recorded price changes",
   "publisher": "AI Signal",
   "homepage": "https://aisignalhq.com/data/",
-  "generatedAt": "2026-10-06T11:15:00.281Z",
+  "generatedAt": "2026-10-06T11:23:19.489Z",
   "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
   "attribution": "LLM API pricing data by AI Signal (https://aisignalhq.com/api-pricing/), licensed under CC BY 4.0.",
-  "rowCount": 18,
+  "rowCount": 19,
   "rows": [
     {
       "id": "google-flash-promo-ends",
@@ -58,6 +58,33 @@
       "summary": "Gemini 3.6, 3.7 and 3.8 Flash pricing is promotional until December 31, 2026. On January 1, 2027 it doubles: input from $0.75 to $1.50 and output from $3.75 to $7.50 per million tokens, the list prices Google shows next to the promotional ones.",
       "sourceUrl": "https://ai.google.dev/gemini-api/docs/pricing",
       "pageUrl": "https://aisignalhq.com/price-changes/#google-flash-promo-ends"
+    },
+    {
+      "id": "together-kimi-k3-price-down",
+      "effectiveDate": "2026-10-06",
+      "provider": "together",
+      "kind": "provider",
+      "direction": "decrease",
+      "multiplier": 1.1111,
+      "affects": [
+        "moonshotai/Kimi-K3"
+      ],
+      "figures": [
+        {
+          "model": "moonshotai/Kimi-K3",
+          "before": {
+            "input": 3,
+            "output": 15
+          },
+          "after": {
+            "input": 2.7,
+            "output": 13.5
+          }
+        }
+      ],
+      "summary": "Together AI lowered the price of Kimi K3 by 10%: input from $3.00 to $2.70, cached input from $0.30 to $0.27 and output from $15.00 to $13.50 per million tokens. Its pricing page still showed $3.00 / $15.00 when this site's weekly check read it on October 5, 2026, and showed $2.70 / $13.50 on October 6, 2026; the exact day of the change is not known, so the date here is the day it was seen.",
+      "sourceUrl": "https://www.together.ai/pricing",
+      "pageUrl": "https://aisignalhq.com/price-changes/#together-kimi-k3-price-down"
     },
     {
       "id": "openai-deprecated-model-pages-price-found",

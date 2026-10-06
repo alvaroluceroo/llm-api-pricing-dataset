@@ -2,7 +2,7 @@
   "name": "AI Signal LLM API pricing dataset: current models",
   "publisher": "AI Signal",
   "homepage": "https://aisignalhq.com/data/",
-  "generatedAt": "2026-10-06T11:15:00.279Z",
+  "generatedAt": "2026-10-06T11:23:19.486Z",
   "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
   "attribution": "LLM API pricing data by AI Signal (https://aisignalhq.com/api-pricing/), licensed under CC BY 4.0.",
@@ -1024,7 +1024,7 @@
       "contextWindow": 1000000,
       "maxOutput": null,
       "promotion": null,
-      "verifiedAt": "2026-09-16",
+      "verifiedAt": "2026-10-06",
       "sourceUrl": "https://developer.meta.com/ai/models/muse-spark-1-2/",
       "pageUrl": "https://aisignalhq.com/models/meta-muse-spark-1.2/"
     },
@@ -1046,7 +1046,7 @@
       "contextWindow": 1000000,
       "maxOutput": null,
       "promotion": null,
-      "verifiedAt": "2026-09-16",
+      "verifiedAt": "2026-10-06",
       "sourceUrl": "https://developer.meta.com/ai/models/muse-spark/",
       "pageUrl": "https://aisignalhq.com/models/meta-muse-spark-1.3/"
     },
