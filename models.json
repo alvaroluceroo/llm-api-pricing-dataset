@@ -2,11 +2,11 @@
   "name": "AI Signal LLM API pricing dataset: current models",
   "publisher": "AI Signal",
   "homepage": "https://aisignalhq.com/data/",
-  "generatedAt": "2026-10-05T06:54:21.251Z",
+  "generatedAt": "2026-10-06T11:15:00.279Z",
   "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
   "attribution": "LLM API pricing data by AI Signal (https://aisignalhq.com/api-pricing/), licensed under CC BY 4.0.",
-  "rowCount": 71,
+  "rowCount": 70,
   "rows": [
     {
       "id": "alibaba/qwen3.7-flash",
@@ -228,7 +228,7 @@
     },
     {
       "id": "anthropic/claude-mythos-5",
-      "apiId": null,
+      "apiId": "claude-mythos-5",
       "maker": "anthropic",
       "makerName": "Anthropic",
       "name": "Claude Mythos 5",
@@ -1068,31 +1068,9 @@
       "contextWindow": 128000,
       "maxOutput": null,
       "promotion": null,
-      "verifiedAt": "2026-10-05",
-      "sourceUrl": "https://mistral.ai/pricing/api",
+      "verifiedAt": "2026-10-06",
+      "sourceUrl": "https://docs.mistral.ai/inference/pricing",
       "pageUrl": "https://aisignalhq.com/models/mistral-codestral/"
-    },
-    {
-      "id": "mistral/glm-5.2",
-      "apiId": "zai-glm-5-2",
-      "maker": "mistral",
-      "makerName": "Mistral",
-      "name": "GLM 5.2",
-      "status": "current",
-      "priceStatus": "priced",
-      "inputPerMTok": 1.4,
-      "outputPerMTok": 4.4,
-      "cachedInputPerMTok": 0.14,
-      "cacheWritePerMTok": null,
-      "cacheWrite1hPerMTok": null,
-      "priceRegion": null,
-      "longPromptTiers": [],
-      "contextWindow": 1000000,
-      "maxOutput": null,
-      "promotion": null,
-      "verifiedAt": "2026-10-05",
-      "sourceUrl": "https://mistral.ai/pricing/api",
-      "pageUrl": "https://aisignalhq.com/models/mistral-glm-5.2/"
     },
     {
       "id": "mistral/glm-5.3",
@@ -1112,8 +1090,8 @@
       "contextWindow": 1000000,
       "maxOutput": 128000,
       "promotion": null,
-      "verifiedAt": "2026-10-05",
-      "sourceUrl": "https://mistral.ai/pricing/api",
+      "verifiedAt": "2026-10-06",
+      "sourceUrl": "https://docs.mistral.ai/inference/pricing",
       "pageUrl": "https://aisignalhq.com/models/mistral-glm-5.3/"
     },
     {
@@ -1134,8 +1112,8 @@
       "contextWindow": 256000,
       "maxOutput": null,
       "promotion": null,
-      "verifiedAt": "2026-10-05",
-      "sourceUrl": "https://mistral.ai/pricing/api",
+      "verifiedAt": "2026-10-06",
+      "sourceUrl": "https://docs.mistral.ai/inference/pricing",
       "pageUrl": "https://aisignalhq.com/models/mistral-ministral-3-14b/"
     },
     {
@@ -1156,8 +1134,8 @@
       "contextWindow": 256000,
       "maxOutput": null,
       "promotion": null,
-      "verifiedAt": "2026-10-05",
-      "sourceUrl": "https://mistral.ai/pricing/api",
+      "verifiedAt": "2026-10-06",
+      "sourceUrl": "https://docs.mistral.ai/inference/pricing",
       "pageUrl": "https://aisignalhq.com/models/mistral-ministral-3-3b/"
     },
     {
@@ -1178,8 +1156,8 @@
       "contextWindow": 256000,
       "maxOutput": null,
       "promotion": null,
-      "verifiedAt": "2026-10-05",
-      "sourceUrl": "https://mistral.ai/pricing/api",
+      "verifiedAt": "2026-10-06",
+      "sourceUrl": "https://docs.mistral.ai/inference/pricing",
       "pageUrl": "https://aisignalhq.com/models/mistral-ministral-3-8b/"
     },
     {
@@ -1200,8 +1178,8 @@
       "contextWindow": 256000,
       "maxOutput": null,
       "promotion": null,
-      "verifiedAt": "2026-10-05",
-      "sourceUrl": "https://docs.mistral.ai/models/mistral-large-3-25-12",
+      "verifiedAt": "2026-10-06",
+      "sourceUrl": "https://docs.mistral.ai/inference/pricing",
       "pageUrl": "https://aisignalhq.com/models/mistral-mistral-large-3/"
     },
     {
@@ -1222,8 +1200,8 @@
       "contextWindow": 256000,
       "maxOutput": null,
       "promotion": null,
-      "verifiedAt": "2026-10-05",
-      "sourceUrl": "https://docs.mistral.ai/models/model-cards/mistral-medium-3-5-26-04",
+      "verifiedAt": "2026-10-06",
+      "sourceUrl": "https://docs.mistral.ai/inference/pricing",
       "pageUrl": "https://aisignalhq.com/models/mistral-mistral-medium-3.5/"
     },
     {
@@ -1244,8 +1222,8 @@
       "contextWindow": 256000,
       "maxOutput": null,
       "promotion": null,
-      "verifiedAt": "2026-10-05",
-      "sourceUrl": "https://mistral.ai/pricing/api",
+      "verifiedAt": "2026-10-06",
+      "sourceUrl": "https://docs.mistral.ai/inference/pricing",
       "pageUrl": "https://aisignalhq.com/models/mistral-mistral-small-4/"
     },
     {
