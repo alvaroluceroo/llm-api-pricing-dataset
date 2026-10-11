@@ -2,7 +2,7 @@
   "name": "AI Signal LLM API pricing dataset: current models",
   "publisher": "AI Signal",
   "homepage": "https://aisignalhq.com/data/",
-  "generatedAt": "2026-10-11T11:18:36.666Z",
+  "generatedAt": "2026-10-11T13:55:40.159Z",
   "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
   "attribution": "LLM API pricing data by AI Signal (https://aisignalhq.com/api-pricing/), licensed under CC BY 4.0.",
@@ -39,7 +39,7 @@
       "contextWindow": 1000000,
       "maxOutput": 131072,
       "promotion": null,
-      "verifiedAt": "2026-09-17",
+      "verifiedAt": "2026-10-11",
       "sourceUrl": "https://www.alibabacloud.com/help/en/model-studio/qwen3-7-flash",
       "pageUrl": "https://aisignalhq.com/models/alibaba-qwen3.7-flash/"
     },
@@ -61,7 +61,7 @@
       "contextWindow": 1000000,
       "maxOutput": 131072,
       "promotion": null,
-      "verifiedAt": "2026-09-11",
+      "verifiedAt": "2026-10-11",
       "sourceUrl": "https://www.alibabacloud.com/help/en/model-studio/qwen3-7-max",
       "pageUrl": "https://aisignalhq.com/models/alibaba-qwen3.7-max/"
     },
