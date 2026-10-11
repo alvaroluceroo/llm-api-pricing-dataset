@@ -2,11 +2,11 @@
   "name": "AI Signal LLM API pricing dataset: recorded price changes",
   "publisher": "AI Signal",
   "homepage": "https://aisignalhq.com/data/",
-  "generatedAt": "2026-10-11T10:57:43.796Z",
+  "generatedAt": "2026-10-11T11:18:36.669Z",
   "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
   "attribution": "LLM API pricing data by AI Signal (https://aisignalhq.com/api-pricing/), licensed under CC BY 4.0.",
-  "rowCount": 20,
+  "rowCount": 21,
   "rows": [
     {
       "id": "google-flash-promo-ends",
@@ -58,6 +58,21 @@
       "summary": "Gemini 3.6, 3.7 and 3.8 Flash pricing is promotional until December 31, 2026. On January 1, 2027 it doubles: input from $0.75 to $1.50 and output from $3.75 to $7.50 per million tokens, the list prices Google shows next to the promotional ones.",
       "sourceUrl": "https://ai.google.dev/gemini-api/docs/pricing",
       "pageUrl": "https://aisignalhq.com/price-changes/#google-flash-promo-ends"
+    },
+    {
+      "id": "google-gemini-3-7-flash-promo-unverifiable",
+      "effectiveDate": "2026-10-11",
+      "provider": "google",
+      "kind": "criterion",
+      "direction": "none",
+      "multiplier": null,
+      "affects": [
+        "google/gemini-3.7-flash"
+      ],
+      "figures": [],
+      "summary": "Change of this site's labelling, not a price change by Google. Google deprecated Gemini 3.7 Flash, routes its requests to Gemini 3.8 Flash and no longer lists it on its pricing page, so the promotion this site showed for it ($0.75 input and $3.75 output through December 31, 2026, then $1.50 and $7.50) can no longer be checked. From October 11, 2026 the row shows the last prices read, on October 5, 2026, without the promotional label or the list price after it. The announced January 1, 2027 increase still stands for Gemini 3.6 and 3.8 Flash, which Google still prices.",
+      "sourceUrl": "https://ai.google.dev/gemini-api/docs/models/gemini-3.7-flash",
+      "pageUrl": "https://aisignalhq.com/price-changes/#google-gemini-3-7-flash-promo-unverifiable"
     },
     {
       "id": "anthropic-sonnet-5-5-cache-read-down",
