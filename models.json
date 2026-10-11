@@ -2,11 +2,11 @@
   "name": "AI Signal LLM API pricing dataset: current models",
   "publisher": "AI Signal",
   "homepage": "https://aisignalhq.com/data/",
-  "generatedAt": "2026-10-06T11:23:19.486Z",
+  "generatedAt": "2026-10-11T10:57:43.791Z",
   "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
   "attribution": "LLM API pricing data by AI Signal (https://aisignalhq.com/api-pricing/), licensed under CC BY 4.0.",
-  "rowCount": 70,
+  "rowCount": 71,
   "rows": [
     {
       "id": "alibaba/qwen3.7-flash",
@@ -225,6 +225,35 @@
       "verifiedAt": "2026-10-05",
       "sourceUrl": "https://platform.claude.com/docs/en/about-claude/pricing",
       "pageUrl": "https://aisignalhq.com/models/anthropic-claude-haiku-4-5/"
+    },
+    {
+      "id": "anthropic/claude-haiku-5-5",
+      "apiId": "claude-haiku-5-5",
+      "maker": "anthropic",
+      "makerName": "Anthropic",
+      "name": "Claude Haiku 5.5",
+      "status": "current",
+      "priceStatus": "priced",
+      "inputPerMTok": 0.1,
+      "outputPerMTok": 0.5,
+      "cachedInputPerMTok": 0.01,
+      "cacheWritePerMTok": 0.125,
+      "cacheWrite1hPerMTok": 0.2,
+      "priceRegion": null,
+      "longPromptTiers": [
+        {
+          "condition": "prompt > 100000 tokens",
+          "input": 0.5,
+          "output": 2.5,
+          "cachedInput": 0.05
+        }
+      ],
+      "contextWindow": 1000000,
+      "maxOutput": 128000,
+      "promotion": null,
+      "verifiedAt": "2026-10-11",
+      "sourceUrl": "https://platform.claude.com/docs/en/about-claude/pricing",
+      "pageUrl": "https://aisignalhq.com/models/anthropic-claude-haiku-5-5/"
     },
     {
       "id": "anthropic/claude-mythos-5",
@@ -456,7 +485,7 @@
       "priceStatus": "priced",
       "inputPerMTok": 2,
       "outputPerMTok": 10,
-      "cachedInputPerMTok": 0.2,
+      "cachedInputPerMTok": 0.1,
       "cacheWritePerMTok": 2.5,
       "cacheWrite1hPerMTok": 4,
       "priceRegion": null,
@@ -464,7 +493,7 @@
       "contextWindow": 1000000,
       "maxOutput": 128000,
       "promotion": null,
-      "verifiedAt": "2026-10-05",
+      "verifiedAt": "2026-10-11",
       "sourceUrl": "https://platform.claude.com/docs/en/about-claude/pricing",
       "pageUrl": "https://aisignalhq.com/models/anthropic-claude-sonnet-5-5/"
     },

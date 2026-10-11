@@ -2,11 +2,11 @@
   "name": "AI Signal LLM API pricing dataset: recorded price changes",
   "publisher": "AI Signal",
   "homepage": "https://aisignalhq.com/data/",
-  "generatedAt": "2026-10-06T11:23:19.489Z",
+  "generatedAt": "2026-10-11T10:57:43.796Z",
   "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
   "attribution": "LLM API pricing data by AI Signal (https://aisignalhq.com/api-pricing/), licensed under CC BY 4.0.",
-  "rowCount": 19,
+  "rowCount": 20,
   "rows": [
     {
       "id": "google-flash-promo-ends",
@@ -58,6 +58,21 @@
       "summary": "Gemini 3.6, 3.7 and 3.8 Flash pricing is promotional until December 31, 2026. On January 1, 2027 it doubles: input from $0.75 to $1.50 and output from $3.75 to $7.50 per million tokens, the list prices Google shows next to the promotional ones.",
       "sourceUrl": "https://ai.google.dev/gemini-api/docs/pricing",
       "pageUrl": "https://aisignalhq.com/price-changes/#google-flash-promo-ends"
+    },
+    {
+      "id": "anthropic-sonnet-5-5-cache-read-down",
+      "effectiveDate": "2026-10-07",
+      "provider": "anthropic",
+      "kind": "provider",
+      "direction": "decrease",
+      "multiplier": null,
+      "affects": [
+        "anthropic/claude-sonnet-5-5"
+      ],
+      "figures": [],
+      "summary": "Anthropic halved the price of prompt cache reads on Claude Sonnet 5.5, from $0.20 to $0.10 per million tokens (0.05x the base input price instead of 0.1x), announced in its platform release notes on October 7, 2026. Input ($2), output ($10) and cache writes ($2.50 for 5 minutes, $4 for 1 hour) are unchanged, so the headline price does not move. This site read the new figure on October 11, 2026.",
+      "sourceUrl": "https://platform.claude.com/docs/en/release-notes/overview",
+      "pageUrl": "https://aisignalhq.com/price-changes/#anthropic-sonnet-5-5-cache-read-down"
     },
     {
       "id": "together-kimi-k3-price-down",
