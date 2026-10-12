@@ -2,7 +2,7 @@
   "name": "AI Signal LLM API pricing dataset: recorded price changes",
   "publisher": "AI Signal",
   "homepage": "https://aisignalhq.com/data/",
-  "generatedAt": "2026-10-11T13:55:40.161Z",
+  "generatedAt": "2026-10-12T15:16:35.109Z",
   "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
   "attribution": "LLM API pricing data by AI Signal (https://aisignalhq.com/api-pricing/), licensed under CC BY 4.0.",
@@ -60,6 +60,33 @@
       "pageUrl": "https://aisignalhq.com/price-changes/#google-flash-promo-ends"
     },
     {
+      "id": "together-kimi-k3-promo-read-as-list",
+      "effectiveDate": "2026-10-12",
+      "provider": "together",
+      "kind": "correction",
+      "direction": "none",
+      "multiplier": null,
+      "affects": [
+        "moonshotai/Kimi-K3"
+      ],
+      "figures": [
+        {
+          "model": "moonshotai/Kimi-K3",
+          "before": {
+            "input": 2.7,
+            "output": 13.5
+          },
+          "after": {
+            "input": 3,
+            "output": 15
+          }
+        }
+      ],
+      "summary": "Correction of our own reading, not a price change by Together AI. From October 6 to October 12, 2026 this site published Kimi K3 on Together AI at $2.70 input and $13.50 output per million tokens and recorded it as a 10% price cut by Together. It was a promotion: on October 12, 2026 Together's pricing page labels the row 'PROMO' with 'Promotion valid until October 11, 2026' and prints the list price beside it, $3.00 input and $15.00 output, the price it had until October 5. The list price did not change and this site publishes list prices, so the row is back at $3.00 / $15.00. Cached input stays at $0.27, the figure Together's Standard table prints on October 12, 2026 (it was $0.30 until October 5). This entry replaces the one of October 6 that called the promotion a price cut.",
+      "sourceUrl": "https://www.together.ai/pricing",
+      "pageUrl": "https://aisignalhq.com/price-changes/#together-kimi-k3-promo-read-as-list"
+    },
+    {
       "id": "google-gemini-3-7-flash-promo-unverifiable",
       "effectiveDate": "2026-10-11",
       "provider": "google",
@@ -88,33 +115,6 @@
       "summary": "Anthropic halved the price of prompt cache reads on Claude Sonnet 5.5, from $0.20 to $0.10 per million tokens (0.05x the base input price instead of 0.1x), announced in its platform release notes on October 7, 2026. Input ($2), output ($10) and cache writes ($2.50 for 5 minutes, $4 for 1 hour) are unchanged, so the headline price does not move. This site read the new figure on October 11, 2026.",
       "sourceUrl": "https://platform.claude.com/docs/en/release-notes/overview",
       "pageUrl": "https://aisignalhq.com/price-changes/#anthropic-sonnet-5-5-cache-read-down"
-    },
-    {
-      "id": "together-kimi-k3-price-down",
-      "effectiveDate": "2026-10-06",
-      "provider": "together",
-      "kind": "provider",
-      "direction": "decrease",
-      "multiplier": 1.1111,
-      "affects": [
-        "moonshotai/Kimi-K3"
-      ],
-      "figures": [
-        {
-          "model": "moonshotai/Kimi-K3",
-          "before": {
-            "input": 3,
-            "output": 15
-          },
-          "after": {
-            "input": 2.7,
-            "output": 13.5
-          }
-        }
-      ],
-      "summary": "Together AI lowered the price of Kimi K3 by 10%: input from $3.00 to $2.70, cached input from $0.30 to $0.27 and output from $15.00 to $13.50 per million tokens. Its pricing page still showed $3.00 / $15.00 when this site's weekly check read it on October 5, 2026, and showed $2.70 / $13.50 on October 6, 2026; the exact day of the change is not known, so the date here is the day it was seen.",
-      "sourceUrl": "https://www.together.ai/pricing",
-      "pageUrl": "https://aisignalhq.com/price-changes/#together-kimi-k3-price-down"
     },
     {
       "id": "openai-deprecated-model-pages-price-found",
