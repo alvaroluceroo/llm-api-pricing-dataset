@@ -2,11 +2,11 @@
   "name": "AI Signal LLM API pricing dataset: recorded price changes",
   "publisher": "AI Signal",
   "homepage": "https://aisignalhq.com/data/",
-  "generatedAt": "2026-10-12T15:16:35.109Z",
+  "generatedAt": "2026-10-13T17:10:53.792Z",
   "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
   "attribution": "LLM API pricing data by AI Signal (https://aisignalhq.com/api-pricing/), licensed under CC BY 4.0.",
-  "rowCount": 21,
+  "rowCount": 22,
   "rows": [
     {
       "id": "google-flash-promo-ends",
@@ -58,6 +58,21 @@
       "summary": "Gemini 3.6, 3.7 and 3.8 Flash pricing is promotional until December 31, 2026. On January 1, 2027 it doubles: input from $0.75 to $1.50 and output from $3.75 to $7.50 per million tokens, the list prices Google shows next to the promotional ones.",
       "sourceUrl": "https://ai.google.dev/gemini-api/docs/pricing",
       "pageUrl": "https://aisignalhq.com/price-changes/#google-flash-promo-ends"
+    },
+    {
+      "id": "google-gemini-3-flash-preview-output-added",
+      "effectiveDate": "2026-10-13",
+      "provider": "google",
+      "kind": "omission",
+      "direction": "none",
+      "multiplier": null,
+      "affects": [
+        "google/gemini-3-flash-preview"
+      ],
+      "figures": [],
+      "summary": "Omission on our side, not a price change by Google. The Gemini 3 Flash Preview row had an input price ($0.50) and a cache price ($0.05) per million tokens but no output price, because it was read on Google Cloud's Vertex AI pricing page, whose standard table prints only input rows for this model. On October 13, 2026 Google's Gemini API pricing page, the source of every other Gemini row, was read and prints an output price of $3.00 per million tokens (including thinking tokens) for the same model. The row now cites that page, with $0.50 input, $3.00 output and $0.05 cached. This site does not know since when the Gemini API page has printed that figure.",
+      "sourceUrl": "https://ai.google.dev/gemini-api/docs/pricing",
+      "pageUrl": "https://aisignalhq.com/price-changes/#google-gemini-3-flash-preview-output-added"
     },
     {
       "id": "together-kimi-k3-promo-read-as-list",
