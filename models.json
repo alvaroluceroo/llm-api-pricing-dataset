@@ -2,7 +2,7 @@
   "name": "AI Signal LLM API pricing dataset: current models",
   "publisher": "AI Signal",
   "homepage": "https://aisignalhq.com/data/",
-  "generatedAt": "2026-10-14T16:21:26.538Z",
+  "generatedAt": "2026-10-14T16:33:24.929Z",
   "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
   "attribution": "LLM API pricing data by AI Signal (https://aisignalhq.com/api-pricing/), licensed under CC BY 4.0.",
@@ -998,10 +998,10 @@
       "makerName": "Meta",
       "name": "Muse Spark 1.1",
       "status": "current",
-      "priceStatus": "no-published-price",
-      "inputPerMTok": null,
-      "outputPerMTok": null,
-      "cachedInputPerMTok": null,
+      "priceStatus": "priced",
+      "inputPerMTok": 1.25,
+      "outputPerMTok": 4.25,
+      "cachedInputPerMTok": 0.15,
       "cacheWritePerMTok": null,
       "cacheWrite1hPerMTok": null,
       "priceRegion": null,
@@ -1009,8 +1009,8 @@
       "contextWindow": 1000000,
       "maxOutput": null,
       "promotion": null,
-      "verifiedAt": "2026-09-16",
-      "sourceUrl": "https://developer.meta.com/ai/models/muse-spark-1-1/",
+      "verifiedAt": "2026-10-14",
+      "sourceUrl": "https://dev.meta.ai/docs/pricing-rate-limits",
       "pageUrl": "https://aisignalhq.com/models/meta-muse-spark-1.1/"
     },
     {
@@ -1031,8 +1031,8 @@
       "contextWindow": 1000000,
       "maxOutput": null,
       "promotion": null,
-      "verifiedAt": "2026-10-06",
-      "sourceUrl": "https://developer.meta.com/ai/models/muse-spark-1-2/",
+      "verifiedAt": "2026-10-14",
+      "sourceUrl": "https://dev.meta.ai/models/muse-spark-1-2",
       "pageUrl": "https://aisignalhq.com/models/meta-muse-spark-1.2/"
     },
     {
@@ -1053,8 +1053,8 @@
       "contextWindow": 1000000,
       "maxOutput": null,
       "promotion": null,
-      "verifiedAt": "2026-10-06",
-      "sourceUrl": "https://developer.meta.com/ai/models/muse-spark/",
+      "verifiedAt": "2026-10-14",
+      "sourceUrl": "https://dev.meta.ai/models/muse-spark",
       "pageUrl": "https://aisignalhq.com/models/meta-muse-spark-1.3/"
     },
     {

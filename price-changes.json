@@ -2,11 +2,11 @@
   "name": "AI Signal LLM API pricing dataset: recorded price changes",
   "publisher": "AI Signal",
   "homepage": "https://aisignalhq.com/data/",
-  "generatedAt": "2026-10-14T16:21:26.541Z",
+  "generatedAt": "2026-10-14T16:33:24.931Z",
   "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
   "attribution": "LLM API pricing data by AI Signal (https://aisignalhq.com/api-pricing/), licensed under CC BY 4.0.",
-  "rowCount": 22,
+  "rowCount": 24,
   "rows": [
     {
       "id": "google-flash-promo-ends",
@@ -58,6 +58,57 @@
       "summary": "Gemini 3.6, 3.7 and 3.8 Flash pricing is promotional until December 31, 2026. On January 1, 2027 it doubles: input from $0.75 to $1.50 and output from $3.75 to $7.50 per million tokens, the list prices Google shows next to the promotional ones.",
       "sourceUrl": "https://ai.google.dev/gemini-api/docs/pricing",
       "pageUrl": "https://aisignalhq.com/price-changes/#google-flash-promo-ends"
+    },
+    {
+      "id": "google-gemini-4-argon-promo-ends",
+      "effectiveDate": "2026-12-01",
+      "provider": "google",
+      "kind": "provider",
+      "direction": "increase",
+      "multiplier": 2,
+      "affects": [
+        "google/gemini-4-argon"
+      ],
+      "figures": [
+        {
+          "model": "google/gemini-4-argon",
+          "before": {
+            "input": 2,
+            "output": 10
+          },
+          "after": {
+            "input": 4,
+            "output": 20
+          }
+        }
+      ],
+      "summary": "Gemini 4 Argon pricing is introductory until November 30, 2026. On December 1, 2026 it doubles: input from $2.00 to $4.00 and output from $10.00 to $20.00 per million tokens, the list prices Google shows next to the introductory ones.",
+      "sourceUrl": "https://ai.google.dev/gemini-api/docs/pricing",
+      "pageUrl": "https://aisignalhq.com/price-changes/#google-gemini-4-argon-promo-ends"
+    },
+    {
+      "id": "meta-muse-spark-1.1-price-found",
+      "effectiveDate": "2026-10-14",
+      "provider": "meta",
+      "kind": "correction",
+      "direction": "none",
+      "multiplier": null,
+      "affects": [
+        "meta/muse-spark-1.1"
+      ],
+      "figures": [
+        {
+          "model": "meta/muse-spark-1.1",
+          "before": null,
+          "after": {
+            "input": 1.25,
+            "output": 4.25
+          }
+        }
+      ],
+      "summary": "Correction of our own reading, not a price change by Meta. Since September 16, 2026 this site showed Muse Spark 1.1 as 'no published price', because its own model page carries a benchmark table and no pricing table. On October 14, 2026 Meta's 'Pricing and rate limits' page, which this site had not read, lists muse-spark-1.1 in Standard mode next to 1.3 and 1.2 ('Muse Spark 1.1 is Standard mode only.') at $1.25 input, $0.15 cached input and $4.25 output per million tokens. The row now carries that price. When Meta began listing 1.1 on that page is not known, so the date here is the day it was read.",
+      "sourceUrl": "https://dev.meta.ai/docs/pricing-rate-limits",
+      "pageUrl": "https://aisignalhq.com/price-changes/#meta-muse-spark-1.1-price-found"
     },
     {
       "id": "google-gemini-3-flash-preview-output-added",
