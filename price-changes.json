@@ -2,11 +2,11 @@
   "name": "AI Signal LLM API pricing dataset: recorded price changes",
   "publisher": "AI Signal",
   "homepage": "https://aisignalhq.com/data/",
-  "generatedAt": "2026-10-19T07:03:05.077Z",
+  "generatedAt": "2026-10-22T13:56:47.564Z",
   "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
   "attribution": "LLM API pricing data by AI Signal (https://aisignalhq.com/api-pricing/), licensed under CC BY 4.0.",
-  "rowCount": 24,
+  "rowCount": 25,
   "rows": [
     {
       "id": "google-flash-promo-ends",
@@ -85,6 +85,27 @@
       "summary": "Gemini 4 Argon pricing is introductory until November 30, 2026. On December 1, 2026 it doubles: input from $2.00 to $4.00 and output from $10.00 to $20.00 per million tokens, the list prices Google shows next to the introductory ones.",
       "sourceUrl": "https://ai.google.dev/gemini-api/docs/pricing",
       "pageUrl": "https://aisignalhq.com/price-changes/#google-gemini-4-argon-promo-ends"
+    },
+    {
+      "id": "mistral-cached-input-found",
+      "effectiveDate": "2026-10-22",
+      "provider": "mistral",
+      "kind": "correction",
+      "direction": "none",
+      "multiplier": null,
+      "affects": [
+        "mistral/mistral-large-3",
+        "mistral/mistral-medium-3.5",
+        "mistral/mistral-small-4",
+        "mistral/ministral-3-14b",
+        "mistral/ministral-3-8b",
+        "mistral/ministral-3-3b",
+        "mistral/codestral"
+      ],
+      "figures": [],
+      "summary": "Correction of our own reading, not a price change by Mistral. Mistral's pricing page prints a cached input price for each model in a 'Cached input' column, and seven rows of this dataset did not carry it: Mistral Large 3 ($0.05), Mistral Medium 3.5 ($0.15), Mistral Small 4 ($0.015), Ministral 3 14B ($0.02), Ministral 3 8B ($0.015), Ministral 3 3B ($0.01) and Codestral ($0.03) per million tokens, read on October 22, 2026. Before that the rows showed no cached input price; input and output prices are unchanged. When Mistral began printing these figures is not known, so the date here is the day they were read.",
+      "sourceUrl": "https://docs.mistral.ai/inference/pricing",
+      "pageUrl": "https://aisignalhq.com/price-changes/#mistral-cached-input-found"
     },
     {
       "id": "meta-muse-spark-1.1-price-found",
