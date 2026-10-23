@@ -1,5 +1,5 @@
 # AI Signal LLM API pricing dataset: current models. https://aisignalhq.com/data/
-# Generated 2026-10-22T13:56:47.556Z. License: Creative Commons Attribution 4.0 International (CC BY 4.0), https://creativecommons.org/licenses/by/4.0/
+# Generated 2026-10-23T12:49:12.100Z. License: Creative Commons Attribution 4.0 International (CC BY 4.0), https://creativecommons.org/licenses/by/4.0/
 # Attribution: LLM API pricing data by AI Signal (https://aisignalhq.com/api-pricing/), licensed under CC BY 4.0.
 id,apiId,maker,makerName,name,status,priceStatus,inputPerMTok,outputPerMTok,cachedInputPerMTok,cacheWritePerMTok,cacheWrite1hPerMTok,priceRegion,longTierCondition,longTierInputPerMTok,longTierOutputPerMTok,longTierCount,contextWindow,maxOutput,promoEndsOn,promoAtLeastUntil,verifiedAt,sourceUrl,pageUrl
 alibaba/qwen3.7-flash,qwen3.7-flash,alibaba,Alibaba (Qwen),Qwen3.7-Flash,current,priced,0.03,0.13,0.006,,,Singapore (International),prompt > 32000 tokens,0.1,0.4,2,1000000,131072,,,2026-10-11,https://www.alibabacloud.com/help/en/model-studio/qwen3-7-flash,https://aisignalhq.com/models/alibaba-qwen3.7-flash/
@@ -49,6 +49,7 @@ meta/muse-spark-1.3,muse-spark-1.3,meta,Meta,Muse Spark 1.3,current,priced,1.25,
 meta/muse-wonder-1.0,muse-wonder-1.0,meta,Meta,Muse Wonder,current,priced,4,20,0.2,,,,,,,0,1048576,,,,2026-10-14,https://dev.meta.ai/models/muse-wonder,https://aisignalhq.com/models/meta-muse-wonder-1.0/
 mistral/codestral,codestral-2508,mistral,Mistral,Codestral,current,priced,0.3,0.9,0.03,,,,,,,0,128000,,,,2026-10-19,https://docs.mistral.ai/inference/pricing,https://aisignalhq.com/models/mistral-codestral/
 mistral/glm-5.3,zai-glm-5-3,mistral,Mistral,GLM 5.3,current,priced,1.4,4.4,0.14,,,,,,,0,1000000,128000,,,2026-10-19,https://docs.mistral.ai/inference/pricing,https://aisignalhq.com/models/mistral-glm-5.3/
+mistral/glm-5.3-flash,zai-glm-5-3-flash,mistral,Mistral,GLM 5.3 Flash,current,priced,0.15,0.5,0.03,,,,,,,0,1000000,128000,,,2026-10-23,https://docs.mistral.ai/inference/pricing,https://aisignalhq.com/models/mistral-glm-5.3-flash/
 mistral/ministral-3-14b,,mistral,Mistral,Ministral 3 14B,current,priced,0.2,0.2,0.02,,,,,,,0,256000,,,,2026-10-19,https://docs.mistral.ai/inference/pricing,https://aisignalhq.com/models/mistral-ministral-3-14b/
 mistral/ministral-3-3b,,mistral,Mistral,Ministral 3 3B,current,priced,0.1,0.1,0.01,,,,,,,0,256000,,,,2026-10-19,https://docs.mistral.ai/inference/pricing,https://aisignalhq.com/models/mistral-ministral-3-3b/
 mistral/ministral-3-8b,,mistral,Mistral,Ministral 3 8B,current,priced,0.15,0.15,0.015,,,,,,,0,256000,,,,2026-10-19,https://docs.mistral.ai/inference/pricing,https://aisignalhq.com/models/mistral-ministral-3-8b/
