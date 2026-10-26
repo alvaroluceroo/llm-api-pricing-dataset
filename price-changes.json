@@ -2,11 +2,11 @@
   "name": "AI Signal LLM API pricing dataset: recorded price changes",
   "publisher": "AI Signal",
   "homepage": "https://aisignalhq.com/data/",
-  "generatedAt": "2026-10-23T12:49:12.105Z",
+  "generatedAt": "2026-10-26T13:02:20.911Z",
   "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
   "attribution": "LLM API pricing data by AI Signal (https://aisignalhq.com/api-pricing/), licensed under CC BY 4.0.",
-  "rowCount": 25,
+  "rowCount": 27,
   "rows": [
     {
       "id": "google-flash-promo-ends",
@@ -85,6 +85,68 @@
       "summary": "Gemini 4 Argon pricing is introductory until November 30, 2026. On December 1, 2026 it doubles: input from $2.00 to $4.00 and output from $10.00 to $20.00 per million tokens, the list prices Google shows next to the introductory ones.",
       "sourceUrl": "https://ai.google.dev/gemini-api/docs/pricing",
       "pageUrl": "https://aisignalhq.com/price-changes/#google-gemini-4-argon-promo-ends"
+    },
+    {
+      "id": "openai-gpt-5-mini-o3-price-found",
+      "effectiveDate": "2026-10-26",
+      "provider": "openai",
+      "kind": "correction",
+      "direction": "none",
+      "multiplier": null,
+      "affects": [
+        "openai/gpt-5",
+        "openai/gpt-5-mini",
+        "openai/o3"
+      ],
+      "figures": [
+        {
+          "model": "openai/gpt-5",
+          "before": null,
+          "after": {
+            "input": 1.25,
+            "output": 10
+          }
+        },
+        {
+          "model": "openai/gpt-5-mini",
+          "before": null,
+          "after": {
+            "input": 0.25,
+            "output": 2
+          }
+        },
+        {
+          "model": "openai/o3",
+          "before": null,
+          "after": {
+            "input": 2,
+            "output": 8
+          }
+        }
+      ],
+      "summary": "Correction of our own reading, not a price change by OpenAI. Since September 3, 2026 this site showed GPT-5, GPT-5 mini and o3 with no price, and said GPT-5's price was no longer published. OpenAI's pricing page does print them, in its folded 'All models' table, which the page draws in the browser and its Markdown version (developers.openai.com/api/docs/pricing.md) prints. Read there on October 26, 2026, the Standard table prints 'gpt-5 | $1.25 | $10.00 | $0.125', 'gpt-5-mini | $0.25 | $2.00 | $0.025' and 'o3 | $2.00 | $8.00 | $0.50' (Input, Output, Cached input, per 1M tokens); each model page, read the same day, prints the same figures. All three are deprecated and OpenAI shuts them down on December 11, 2026.",
+      "sourceUrl": "https://developers.openai.com/api/docs/pricing",
+      "pageUrl": "https://aisignalhq.com/price-changes/#openai-gpt-5-mini-o3-price-found"
+    },
+    {
+      "id": "openai-pricing-page-all-models-table-found",
+      "effectiveDate": "2026-10-26",
+      "provider": "openai",
+      "kind": "correction",
+      "direction": "none",
+      "multiplier": null,
+      "affects": [
+        "openai/gpt-4",
+        "openai/gpt-4-turbo",
+        "openai/gpt-3.5-turbo",
+        "openai/o1",
+        "openai/o1-pro",
+        "openai/o3-mini"
+      ],
+      "figures": [],
+      "summary": "Correction of our own reading, not a price change by OpenAI. The entry of October 5, 2026 (openai-deprecated-model-pages-price-found) said that OpenAI's pricing page no longer listed GPT-4, GPT-4 Turbo, GPT-3.5 Turbo, o1, o1-pro and o3-mini. That was this site's reading of the page, which did not see its folded 'All models' table: the page draws it in the browser, and its Markdown version (developers.openai.com/api/docs/pricing.md) prints it. Read there on October 26, 2026, three days after the six were shut down, the Standard table still lists them, at the same prices this site carries: 'gpt-4-0613 | $30.00 | $60.00 | -', 'gpt-4-turbo-2024-04-09 | $10.00 | $30.00 | -', 'gpt-3.5-turbo-0125 | $0.50 | $1.50 | -', 'o1 | $15.00 | $60.00 | $7.50', 'o1-pro | $150.00 | $600.00 | -' and 'o3-mini | $1.10 | $4.40 | $0.55' (Input, Output, Cached input, per 1M tokens). No figure shown here changes. Whether the table listed them on October 5, 2026 is not known.",
+      "sourceUrl": "https://developers.openai.com/api/docs/pricing",
+      "pageUrl": "https://aisignalhq.com/price-changes/#openai-pricing-page-all-models-table-found"
     },
     {
       "id": "mistral-cached-input-found",
