@@ -1,5 +1,5 @@
 # AI Signal LLM API pricing dataset: current models. https://aisignalhq.com/data/
-# Generated 2026-10-26T14:43:21.468Z. License: Creative Commons Attribution 4.0 International (CC BY 4.0), https://creativecommons.org/licenses/by/4.0/
+# Generated 2026-10-27T11:38:53.825Z. License: Creative Commons Attribution 4.0 International (CC BY 4.0), https://creativecommons.org/licenses/by/4.0/
 # Attribution: LLM API pricing data by AI Signal (https://aisignalhq.com/api-pricing/), licensed under CC BY 4.0.
 id,apiId,maker,makerName,name,status,priceStatus,inputPerMTok,outputPerMTok,cachedInputPerMTok,cacheWritePerMTok,cacheWrite1hPerMTok,priceRegion,longTierCondition,longTierInputPerMTok,longTierOutputPerMTok,longTierCount,contextWindow,maxOutput,promoEndsOn,promoAtLeastUntil,verifiedAt,sourceUrl,pageUrl
 alibaba/qwen3.7-flash,qwen3.7-flash,alibaba,Alibaba (Qwen),Qwen3.7-Flash,current,priced,0.03,0.13,0.006,,,Singapore (International),prompt > 32000 tokens,0.1,0.4,2,1000000,131072,,,2026-10-11,https://www.alibabacloud.com/help/en/model-studio/qwen3-7-flash,https://aisignalhq.com/models/alibaba-qwen3.7-flash/
@@ -71,6 +71,7 @@ openai/gpt-6-astra,gpt-6-astra,openai,OpenAI,GPT-6 Astra,current,priced,10,50,1,
 openai/gpt-6-luna,gpt-6-luna,openai,OpenAI,GPT-6 Luna,current,priced,0.1,0.5,0.01,0.125,,,prompt > 272000 tokens,0.2,0.75,1,1050000,128000,,,2026-10-26,https://developers.openai.com/api/docs/pricing,https://aisignalhq.com/models/openai-gpt-6-luna/
 openai/gpt-6-sol,gpt-6-sol,openai,OpenAI,GPT-6 Sol,current,priced,2,10,0.2,2.5,,,prompt > 272000 tokens,4,15,1,1050000,128000,,,2026-10-26,https://developers.openai.com/api/docs/models/gpt-6-sol,https://aisignalhq.com/models/openai-gpt-6-sol/
 openai/gpt-6.1-sol,gpt-6.1-sol,openai,OpenAI,GPT-6.1 Sol,current,priced,2,10,0.1,2.5,,,prompt > 272000 tokens,4,15,1,1050000,128000,,,2026-10-26,https://developers.openai.com/api/docs/pricing,https://aisignalhq.com/models/openai-gpt-6.1-sol/
+openai/gpt-6.1-terra,gpt-6.1-terra,openai,OpenAI,GPT-6.1 Terra,current,priced,1,5,0.05,1.25,,,prompt > 272000 tokens,2,7.5,1,1050000,128000,,,2026-10-27,https://developers.openai.com/api/docs/pricing,https://aisignalhq.com/models/openai-gpt-6.1-terra/
 openai/gpt-rosalind-research,gpt-rosalind-research,openai,OpenAI,GPT-Rosalind,current,priced,5,25,0.5,,,,,,,0,,,,,2026-10-26,https://developers.openai.com/api/docs/pricing,https://aisignalhq.com/models/openai-gpt-rosalind-research/
 openai/gpt-rosalind-discovery,gpt-rosalind-discovery,openai,OpenAI,GPT-Rosalind Discovery,current,priced,5,25,0.5,,,,,,,0,,,,,2026-10-26,https://developers.openai.com/api/docs/pricing,https://aisignalhq.com/models/openai-gpt-rosalind-discovery/
 xai/grok-4.20-non-reasoning,grok-4.20-0309-non-reasoning,xai,xAI,Grok 4.20 (non-reasoning),current,priced,1.25,2.5,0.2,,,,prompt ≥ 200000 tokens,2.5,5,1,1000000,,,,2026-10-26,https://docs.x.ai/docs/pricing,https://aisignalhq.com/models/xai-grok-4.20-non-reasoning/

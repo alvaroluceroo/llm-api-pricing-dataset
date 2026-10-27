@@ -2,11 +2,11 @@
   "name": "AI Signal LLM API pricing dataset: current models",
   "publisher": "AI Signal",
   "homepage": "https://aisignalhq.com/data/",
-  "generatedAt": "2026-10-26T14:43:21.472Z",
+  "generatedAt": "2026-10-27T11:38:53.831Z",
   "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
   "attribution": "LLM API pricing data by AI Signal (https://aisignalhq.com/api-pricing/), licensed under CC BY 4.0.",
-  "rowCount": 79,
+  "rowCount": 80,
   "rows": [
     {
       "id": "alibaba/qwen3.7-flash",
@@ -1659,6 +1659,35 @@
       "verifiedAt": "2026-10-26",
       "sourceUrl": "https://developers.openai.com/api/docs/pricing",
       "pageUrl": "https://aisignalhq.com/models/openai-gpt-6.1-sol/"
+    },
+    {
+      "id": "openai/gpt-6.1-terra",
+      "apiId": "gpt-6.1-terra",
+      "maker": "openai",
+      "makerName": "OpenAI",
+      "name": "GPT-6.1 Terra",
+      "status": "current",
+      "priceStatus": "priced",
+      "inputPerMTok": 1,
+      "outputPerMTok": 5,
+      "cachedInputPerMTok": 0.05,
+      "cacheWritePerMTok": 1.25,
+      "cacheWrite1hPerMTok": null,
+      "priceRegion": null,
+      "longPromptTiers": [
+        {
+          "condition": "prompt > 272000 tokens",
+          "input": 2,
+          "output": 7.5,
+          "cachedInput": 0.1
+        }
+      ],
+      "contextWindow": 1050000,
+      "maxOutput": 128000,
+      "promotion": null,
+      "verifiedAt": "2026-10-27",
+      "sourceUrl": "https://developers.openai.com/api/docs/pricing",
+      "pageUrl": "https://aisignalhq.com/models/openai-gpt-6.1-terra/"
     },
     {
       "id": "openai/gpt-rosalind-research",
