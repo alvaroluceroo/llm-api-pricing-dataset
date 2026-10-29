@@ -2,7 +2,7 @@
   "name": "AI Signal LLM API pricing dataset: current models",
   "publisher": "AI Signal",
   "homepage": "https://aisignalhq.com/data/",
-  "generatedAt": "2026-10-28T12:06:29.674Z",
+  "generatedAt": "2026-10-29T14:19:34.825Z",
   "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
   "attribution": "LLM API pricing data by AI Signal (https://aisignalhq.com/api-pricing/), licensed under CC BY 4.0.",
@@ -1478,7 +1478,7 @@
       "contextWindow": 1050000,
       "maxOutput": 128000,
       "promotion": null,
-      "verifiedAt": "2026-10-26",
+      "verifiedAt": "2026-10-29",
       "sourceUrl": "https://developers.openai.com/api/docs/models/gpt-5.6-luna",
       "pageUrl": "https://aisignalhq.com/models/openai-gpt-5.6-luna/"
     },
@@ -1511,7 +1511,7 @@
         "atLeastUntil": true,
         "listPriceAfter": null
       },
-      "verifiedAt": "2026-10-26",
+      "verifiedAt": "2026-10-29",
       "sourceUrl": "https://developers.openai.com/api/docs/pricing",
       "pageUrl": "https://aisignalhq.com/models/openai-gpt-5.6-sol/"
     },
@@ -1540,7 +1540,7 @@
       "contextWindow": 1050000,
       "maxOutput": 128000,
       "promotion": null,
-      "verifiedAt": "2026-10-26",
+      "verifiedAt": "2026-10-29",
       "sourceUrl": "https://developers.openai.com/api/docs/models/gpt-5.6-terra",
       "pageUrl": "https://aisignalhq.com/models/openai-gpt-5.6-terra/"
     },
@@ -1569,7 +1569,7 @@
       "contextWindow": 1050000,
       "maxOutput": 128000,
       "promotion": null,
-      "verifiedAt": "2026-10-26",
+      "verifiedAt": "2026-10-29",
       "sourceUrl": "https://developers.openai.com/api/docs/pricing",
       "pageUrl": "https://aisignalhq.com/models/openai-gpt-6-astra/"
     },
@@ -1598,7 +1598,7 @@
       "contextWindow": 1050000,
       "maxOutput": 128000,
       "promotion": null,
-      "verifiedAt": "2026-10-26",
+      "verifiedAt": "2026-10-29",
       "sourceUrl": "https://developers.openai.com/api/docs/pricing",
       "pageUrl": "https://aisignalhq.com/models/openai-gpt-6-luna/"
     },
@@ -1627,7 +1627,7 @@
       "contextWindow": 1050000,
       "maxOutput": 128000,
       "promotion": null,
-      "verifiedAt": "2026-10-26",
+      "verifiedAt": "2026-10-29",
       "sourceUrl": "https://developers.openai.com/api/docs/models/gpt-6-sol",
       "pageUrl": "https://aisignalhq.com/models/openai-gpt-6-sol/"
     },
@@ -1656,7 +1656,7 @@
       "contextWindow": 1050000,
       "maxOutput": 128000,
       "promotion": null,
-      "verifiedAt": "2026-10-26",
+      "verifiedAt": "2026-10-29",
       "sourceUrl": "https://developers.openai.com/api/docs/pricing",
       "pageUrl": "https://aisignalhq.com/models/openai-gpt-6.1-sol/"
     },
@@ -1685,7 +1685,7 @@
       "contextWindow": 1050000,
       "maxOutput": 128000,
       "promotion": null,
-      "verifiedAt": "2026-10-27",
+      "verifiedAt": "2026-10-29",
       "sourceUrl": "https://developers.openai.com/api/docs/pricing",
       "pageUrl": "https://aisignalhq.com/models/openai-gpt-6.1-terra/"
     },
