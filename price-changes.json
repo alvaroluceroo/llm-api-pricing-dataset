@@ -2,11 +2,11 @@
   "name": "AI Signal LLM API pricing dataset: recorded price changes",
   "publisher": "AI Signal",
   "homepage": "https://aisignalhq.com/data/",
-  "generatedAt": "2026-10-29T14:46:09.278Z",
+  "generatedAt": "2026-10-29T15:00:18.108Z",
   "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
   "attribution": "LLM API pricing data by AI Signal (https://aisignalhq.com/api-pricing/), licensed under CC BY 4.0.",
-  "rowCount": 28,
+  "rowCount": 30,
   "rows": [
     {
       "id": "google-flash-promo-ends",
@@ -85,6 +85,38 @@
       "summary": "Gemini 4 Argon pricing is introductory until November 30, 2026. On December 1, 2026 it doubles: input from $2.00 to $4.00 and output from $10.00 to $20.00 per million tokens, the list prices Google shows next to the introductory ones.",
       "sourceUrl": "https://ai.google.dev/gemini-api/docs/pricing",
       "pageUrl": "https://aisignalhq.com/price-changes/#google-gemini-4-argon-promo-ends"
+    },
+    {
+      "id": "deepinfra-cached-input-found",
+      "effectiveDate": "2026-10-29",
+      "provider": "deepinfra",
+      "kind": "correction",
+      "direction": "none",
+      "multiplier": null,
+      "affects": [
+        "deepseek-ai/DeepSeek-V4-Flash-0731",
+        "moonshotai/Kimi-K3"
+      ],
+      "figures": [],
+      "summary": "Correction of our own reading, not a price change by DeepInfra. DeepInfra's pricing page prints a cached input price inside the input cell of some models ('$0.06 / $0.015 cached'), and two offerings of this dataset did not carry it: DeepSeek V4 Flash 0731 ($0.015) and Kimi K3 ($0.285) per million tokens, read on October 29, 2026. Both rows already printed it when read on September 30, 2026, as the quotes in their notes show; the figure was not carried into the offering. Input and output prices are unchanged.",
+      "sourceUrl": "https://deepinfra.com/pricing",
+      "pageUrl": "https://aisignalhq.com/price-changes/#deepinfra-cached-input-found"
+    },
+    {
+      "id": "fireworks-cached-input-found",
+      "effectiveDate": "2026-10-29",
+      "provider": "fireworks",
+      "kind": "correction",
+      "direction": "none",
+      "multiplier": null,
+      "affects": [
+        "gpt-oss-120b",
+        "minimax-m3"
+      ],
+      "figures": [],
+      "summary": "Correction of our own reading, not a price change by Fireworks AI. Fireworks AI's serverless pricing page prints each Standard price as input / cached input / output, and two offerings of this dataset did not carry the cached input price: gpt-oss-120b ($0.015) and MiniMax M3 ($0.06) per million tokens, read on October 29, 2026. Both rows already printed it when read on September 30, 2026, as the quotes in their notes show; the figure was not carried into the offering. Input and output prices are unchanged.",
+      "sourceUrl": "https://docs.fireworks.ai/serverless/pricing",
+      "pageUrl": "https://aisignalhq.com/price-changes/#fireworks-cached-input-found"
     },
     {
       "id": "openai-gpt-5-6-cyber-cache-writes-found",
