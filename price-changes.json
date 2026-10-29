@@ -2,11 +2,11 @@
   "name": "AI Signal LLM API pricing dataset: recorded price changes",
   "publisher": "AI Signal",
   "homepage": "https://aisignalhq.com/data/",
-  "generatedAt": "2026-10-29T15:00:18.108Z",
+  "generatedAt": "2026-10-29T15:04:36.812Z",
   "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
   "attribution": "LLM API pricing data by AI Signal (https://aisignalhq.com/api-pricing/), licensed under CC BY 4.0.",
-  "rowCount": 30,
+  "rowCount": 31,
   "rows": [
     {
       "id": "google-flash-promo-ends",
@@ -215,6 +215,21 @@
       "summary": "Correction of our own reading, not a price change by Mistral. Mistral's pricing page prints a cached input price for each model in a 'Cached input' column, and seven rows of this dataset did not carry it: Mistral Large 3 ($0.05), Mistral Medium 3.5 ($0.15), Mistral Small 4 ($0.015), Ministral 3 14B ($0.02), Ministral 3 8B ($0.015), Ministral 3 3B ($0.01) and Codestral ($0.03) per million tokens, read on October 22, 2026. Before that the rows showed no cached input price; input and output prices are unchanged. When Mistral began printing these figures is not known, so the date here is the day they were read.",
       "sourceUrl": "https://docs.mistral.ai/inference/pricing",
       "pageUrl": "https://aisignalhq.com/price-changes/#mistral-cached-input-found"
+    },
+    {
+      "id": "together-kimi-k3-cached-input-up",
+      "effectiveDate": "2026-10-19",
+      "provider": "together",
+      "kind": "provider",
+      "direction": "increase",
+      "multiplier": null,
+      "affects": [
+        "moonshotai/Kimi-K3"
+      ],
+      "figures": [],
+      "summary": "Together AI raised the cached input price of Kimi K3 from $0.27 to $0.30 per million tokens; input ($3.00) and output ($15.00) are unchanged, so the headline price does not move. The last reading at $0.27 was AI Signal's hand reading of October 12, 2026, 'Kimi K3 | $3.00 $0.27 (cached) | $15.00 |'; the weekly detector's reading of October 19, 2026 already quoted 'Kimi K3 | $3.00 $0.30 (cached) | $15.00 |', and the page printed the same row on October 29, 2026. The exact day of the change is not known, so the date here is the first day it was seen.",
+      "sourceUrl": "https://www.together.ai/pricing",
+      "pageUrl": "https://aisignalhq.com/price-changes/#together-kimi-k3-cached-input-up"
     },
     {
       "id": "meta-muse-spark-1.1-price-found",
