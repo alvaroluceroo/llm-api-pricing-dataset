@@ -2,11 +2,11 @@
   "name": "AI Signal LLM API pricing dataset: recorded price changes",
   "publisher": "AI Signal",
   "homepage": "https://aisignalhq.com/data/",
-  "generatedAt": "2026-10-29T15:04:36.812Z",
+  "generatedAt": "2026-10-30T10:28:06.143Z",
   "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
   "attribution": "LLM API pricing data by AI Signal (https://aisignalhq.com/api-pricing/), licensed under CC BY 4.0.",
-  "rowCount": 31,
+  "rowCount": 32,
   "rows": [
     {
       "id": "google-flash-promo-ends",
@@ -85,6 +85,33 @@
       "summary": "Gemini 4 Argon pricing is introductory until November 30, 2026. On December 1, 2026 it doubles: input from $2.00 to $4.00 and output from $10.00 to $20.00 per million tokens, the list prices Google shows next to the introductory ones.",
       "sourceUrl": "https://ai.google.dev/gemini-api/docs/pricing",
       "pageUrl": "https://aisignalhq.com/price-changes/#google-gemini-4-argon-promo-ends"
+    },
+    {
+      "id": "mistral-large-4-price-down",
+      "effectiveDate": "2026-10-30",
+      "provider": "mistral",
+      "kind": "provider",
+      "direction": "decrease",
+      "multiplier": 1.9429,
+      "affects": [
+        "mistral/mistral-large-4"
+      ],
+      "figures": [
+        {
+          "model": "mistral/mistral-large-4",
+          "before": {
+            "input": 1.36,
+            "output": 4.18
+          },
+          "after": {
+            "input": 0.7,
+            "output": 2.1
+          }
+        }
+      ],
+      "summary": "Mistral cut the price of Mistral Large 4, in Public Preview, from $1.36 to $0.70 per million input tokens (1.36 ÷ 0.70 = 1.94×), from $4.18 to $2.10 for output (1.99×) and from $0.14 to $0.07 for cached input. The last reading at the old price was the weekly check of October 26, 2026, 'Mistral Large 4 ↗ | $1.36 | $0.14 | $4.18 |'; on October 30, 2026 the pricing page printed 'Mistral Large 4 ↗ | $0.7 | $0.07 | $2.1 |'. Mistral does not say when it changed the price or whether the new one is temporary, so the date here is the first day it was seen.",
+      "sourceUrl": "https://docs.mistral.ai/inference/pricing",
+      "pageUrl": "https://aisignalhq.com/price-changes/#mistral-large-4-price-down"
     },
     {
       "id": "deepinfra-cached-input-found",
@@ -218,7 +245,7 @@
     },
     {
       "id": "together-kimi-k3-cached-input-up",
-      "effectiveDate": "2026-10-19",
+      "effectiveDate": "2026-10-17",
       "provider": "together",
       "kind": "provider",
       "direction": "increase",
@@ -227,7 +254,7 @@
         "moonshotai/Kimi-K3"
       ],
       "figures": [],
-      "summary": "Together AI raised the cached input price of Kimi K3 from $0.27 to $0.30 per million tokens; input ($3.00) and output ($15.00) are unchanged, so the headline price does not move. The last reading at $0.27 was AI Signal's hand reading of October 12, 2026, 'Kimi K3 | $3.00 $0.27 (cached) | $15.00 |'; the weekly detector's reading of October 19, 2026 already quoted 'Kimi K3 | $3.00 $0.30 (cached) | $15.00 |', and the page printed the same row on October 29, 2026. The exact day of the change is not known, so the date here is the first day it was seen.",
+      "summary": "Together AI raised the cached input price of Kimi K3 from $0.27 to $0.30 per million tokens; input ($3.00) and output ($15.00) are unchanged, so the headline price does not move. The last reading at $0.27 was AI Signal's hand reading of October 12, 2026, 'Kimi K3 | $3.00 $0.27 (cached) | $15.00 |'; AI Signal's next saved reading of the page, on October 17, 2026, already printed 'Kimi K3 | $3.00 $0.30 (cached) | $15.00 |', as did the weekly detector on October 19 and 26 and the page on October 29, 2026. The exact day of the change is not known, so the date here is the first day it was seen. Correction, October 30, 2026: this entry was dated October 19 until then; the October 17 reading had been missed.",
       "sourceUrl": "https://www.together.ai/pricing",
       "pageUrl": "https://aisignalhq.com/price-changes/#together-kimi-k3-cached-input-up"
     },
