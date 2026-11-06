@@ -2,11 +2,11 @@
   "name": "AI Signal LLM API pricing dataset: current models",
   "publisher": "AI Signal",
   "homepage": "https://aisignalhq.com/data/",
-  "generatedAt": "2026-11-06T13:02:54.823Z",
+  "generatedAt": "2026-11-06T13:21:40.149Z",
   "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
   "attribution": "LLM API pricing data by AI Signal (https://aisignalhq.com/api-pricing/), licensed under CC BY 4.0.",
-  "rowCount": 80,
+  "rowCount": 78,
   "rows": [
     {
       "id": "alibaba/qwen3.7-flash",
@@ -718,28 +718,6 @@
       "pageUrl": "https://aisignalhq.com/models/deepseek-deepseek-flash/"
     },
     {
-      "id": "google/gemini-2.5-flash",
-      "apiId": "gemini-2.5-flash",
-      "maker": "google",
-      "makerName": "Google",
-      "name": "Gemini 2.5 Flash",
-      "status": "current",
-      "priceStatus": "priced",
-      "inputPerMTok": 0.3,
-      "outputPerMTok": 2.5,
-      "cachedInputPerMTok": 0.03,
-      "cacheWritePerMTok": null,
-      "cacheWrite1hPerMTok": null,
-      "priceRegion": null,
-      "longPromptTiers": [],
-      "contextWindow": 1048576,
-      "maxOutput": 65536,
-      "promotion": null,
-      "verifiedAt": "2026-11-02",
-      "sourceUrl": "https://aistudio.google.com/docs/pricing",
-      "pageUrl": "https://aisignalhq.com/models/google-gemini-2.5-flash/"
-    },
-    {
       "id": "google/gemini-2.5-flash-lite",
       "apiId": "gemini-2.5-flash-lite",
       "maker": "google",
@@ -760,35 +738,6 @@
       "verifiedAt": "2026-11-02",
       "sourceUrl": "https://aistudio.google.com/docs/pricing",
       "pageUrl": "https://aisignalhq.com/models/google-gemini-2.5-flash-lite/"
-    },
-    {
-      "id": "google/gemini-2.5-pro",
-      "apiId": "gemini-2.5-pro",
-      "maker": "google",
-      "makerName": "Google",
-      "name": "Gemini 2.5 Pro",
-      "status": "current",
-      "priceStatus": "priced",
-      "inputPerMTok": 1.25,
-      "outputPerMTok": 10,
-      "cachedInputPerMTok": 0.125,
-      "cacheWritePerMTok": null,
-      "cacheWrite1hPerMTok": null,
-      "priceRegion": null,
-      "longPromptTiers": [
-        {
-          "condition": "prompt > 200000 tokens",
-          "input": 2.5,
-          "output": 15,
-          "cachedInput": 0.25
-        }
-      ],
-      "contextWindow": 1048576,
-      "maxOutput": 65536,
-      "promotion": null,
-      "verifiedAt": "2026-11-02",
-      "sourceUrl": "https://aistudio.google.com/docs/pricing",
-      "pageUrl": "https://aisignalhq.com/models/google-gemini-2.5-pro/"
     },
     {
       "id": "google/gemini-3.1-pro-preview",

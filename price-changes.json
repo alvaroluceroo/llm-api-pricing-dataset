@@ -2,11 +2,11 @@
   "name": "AI Signal LLM API pricing dataset: recorded price changes",
   "publisher": "AI Signal",
   "homepage": "https://aisignalhq.com/data/",
-  "generatedAt": "2026-11-06T13:02:54.825Z",
+  "generatedAt": "2026-11-06T13:21:40.152Z",
   "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
   "attribution": "LLM API pricing data by AI Signal (https://aisignalhq.com/api-pricing/), licensed under CC BY 4.0.",
-  "rowCount": 32,
+  "rowCount": 33,
   "rows": [
     {
       "id": "google-flash-promo-ends",
@@ -85,6 +85,21 @@
       "summary": "Gemini 4 Argon pricing is introductory until November 30, 2026. On December 1, 2026 it doubles: input from $2.00 to $4.00 and output from $10.00 to $20.00 per million tokens, the list prices Google shows next to the introductory ones.",
       "sourceUrl": "https://aistudio.google.com/docs/pricing",
       "pageUrl": "https://aisignalhq.com/price-changes/#google-gemini-4-argon-promo-ends"
+    },
+    {
+      "id": "google-gemini-omni-1-2-flash-out-of-scope",
+      "effectiveDate": "2026-11-06",
+      "provider": "google",
+      "kind": "criterion",
+      "direction": "none",
+      "multiplier": null,
+      "affects": [
+        "google/gemini-omni-1.2-flash"
+      ],
+      "figures": [],
+      "summary": "Change of this site's criterion, not a price change by Google. Gemini Omni 1.2 Flash (gemini-omni-1.2-flash) was added on November 6, 2026 from Google's pricing page ($1.50 per million input tokens, $9.00 per million output tokens for text, $12.00 for video) and kept out of the table, the calculator and the counts from that day, as Gemini Omni 1.1 Flash has been since September 30, 2026: Google's model page describes 'a high-performance model for fast, conversational video generation and editing', and the $9.00 (text) figure is labelled as including thinking tokens. The page lists the model's output as 'Video with native Audio, Text'. The row stays in the dataset with its prices and dates, and its page is online, out of the search index.",
+      "sourceUrl": "https://aistudio.google.com/docs/models/gemini-omni-flash",
+      "pageUrl": "https://aisignalhq.com/price-changes/#google-gemini-omni-1-2-flash-out-of-scope"
     },
     {
       "id": "mistral-large-4-price-down",
