@@ -2,7 +2,7 @@
   "name": "AI Signal LLM API pricing dataset: recorded price changes",
   "publisher": "AI Signal",
   "homepage": "https://aisignalhq.com/data/",
-  "generatedAt": "2026-11-03T18:43:56.830Z",
+  "generatedAt": "2026-11-06T12:16:54.669Z",
   "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
   "attribution": "LLM API pricing data by AI Signal (https://aisignalhq.com/api-pricing/), licensed under CC BY 4.0.",
@@ -56,7 +56,7 @@
         }
       ],
       "summary": "Gemini 3.6, 3.7 and 3.8 Flash pricing is promotional until December 31, 2026. On January 1, 2027 it doubles: input from $0.75 to $1.50 and output from $3.75 to $7.50 per million tokens, the list prices Google shows next to the promotional ones.",
-      "sourceUrl": "https://ai.google.dev/gemini-api/docs/pricing",
+      "sourceUrl": "https://aistudio.google.com/docs/pricing",
       "pageUrl": "https://aisignalhq.com/price-changes/#google-flash-promo-ends"
     },
     {
@@ -83,7 +83,7 @@
         }
       ],
       "summary": "Gemini 4 Argon pricing is introductory until November 30, 2026. On December 1, 2026 it doubles: input from $2.00 to $4.00 and output from $10.00 to $20.00 per million tokens, the list prices Google shows next to the introductory ones.",
-      "sourceUrl": "https://ai.google.dev/gemini-api/docs/pricing",
+      "sourceUrl": "https://aistudio.google.com/docs/pricing",
       "pageUrl": "https://aisignalhq.com/price-changes/#google-gemini-4-argon-promo-ends"
     },
     {
@@ -294,7 +294,7 @@
       ],
       "figures": [],
       "summary": "Omission on our side, not a price change by Google. The Gemini 3 Flash Preview row had an input price ($0.50) and a cache price ($0.05) per million tokens but no output price, because it was read on Google Cloud's Vertex AI pricing page, whose standard table prints only input rows for this model. On October 13, 2026 Google's Gemini API pricing page, the source of every other Gemini row, was read and prints an output price of $3.00 per million tokens (including thinking tokens) for the same model. The row now cites that page, with $0.50 input, $3.00 output and $0.05 cached. This site does not know since when the Gemini API page has printed that figure.",
-      "sourceUrl": "https://ai.google.dev/gemini-api/docs/pricing",
+      "sourceUrl": "https://aistudio.google.com/docs/pricing",
       "pageUrl": "https://aisignalhq.com/price-changes/#google-gemini-3-flash-preview-output-added"
     },
     {
@@ -336,7 +336,7 @@
       ],
       "figures": [],
       "summary": "Change of this site's labelling, not a price change by Google. Google deprecated Gemini 3.7 Flash, routes its requests to Gemini 3.8 Flash and no longer lists it on its pricing page, so the promotion this site showed for it ($0.75 input and $3.75 output through December 31, 2026, then $1.50 and $7.50) can no longer be checked. From October 11, 2026 the row shows the last prices read, on October 5, 2026, without the promotional label or the list price after it. The announced January 1, 2027 increase still stands for Gemini 3.6 and 3.8 Flash, which Google still prices.",
-      "sourceUrl": "https://ai.google.dev/gemini-api/docs/models/gemini-3.7-flash",
+      "sourceUrl": "https://aistudio.google.com/docs/models/gemini-3.7-flash",
       "pageUrl": "https://aisignalhq.com/price-changes/#google-gemini-3-7-flash-promo-unverifiable"
     },
     {
@@ -510,7 +510,7 @@
         }
       ],
       "summary": "Change of this site's criterion, not a price change by Google. Gemini Omni Flash (gemini-omni-1.1-flash) and its preview endpoint (gemini-omni-flash-preview) entered this dataset in the hand sweep of September 16, 2026, priced $1.50 per million input tokens and $9.00 per million output tokens. On September 30, 2026 Google's model page for both versions was read: it describes a model 'for fast, conversational video generation and editing' and gives its supported output as 'Video' only. The pricing table covers models charged per token with text output, so both rows left the table, the calculator and the counts that day. The $9.00 (text) figure on Google's pricing page is labelled as including thinking tokens; it is not the price of a text answer comparable with the other rows. Both rows stay in the dataset with their prices and dates, and their pages remain online, out of the search index.",
-      "sourceUrl": "https://ai.google.dev/gemini-api/docs/models/gemini-omni-flash",
+      "sourceUrl": "https://aistudio.google.com/docs/models/gemini-omni-flash",
       "pageUrl": "https://aisignalhq.com/price-changes/#google-gemini-omni-flash-out-of-scope"
     },
     {
