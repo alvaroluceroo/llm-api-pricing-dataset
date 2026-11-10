@@ -2,11 +2,11 @@
   "name": "AI Signal LLM API pricing dataset: current models",
   "publisher": "AI Signal",
   "homepage": "https://aisignalhq.com/data/",
-  "generatedAt": "2026-11-09T18:17:30.554Z",
+  "generatedAt": "2026-11-10T10:48:34.622Z",
   "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
   "attribution": "LLM API pricing data by AI Signal (https://aisignalhq.com/api-pricing/), licensed under CC BY 4.0.",
-  "rowCount": 79,
+  "rowCount": 82,
   "rows": [
     {
       "id": "alibaba/qwen3.7-flash",
@@ -205,6 +205,28 @@
       "pageUrl": "https://aisignalhq.com/models/anthropic-claude-fable-5-1/"
     },
     {
+      "id": "anthropic/claude-fable-5-2",
+      "apiId": "claude-fable-5-2",
+      "maker": "anthropic",
+      "makerName": "Anthropic",
+      "name": "Claude Fable 5.2",
+      "status": "current",
+      "priceStatus": "priced",
+      "inputPerMTok": 8,
+      "outputPerMTok": 40,
+      "cachedInputPerMTok": 0.2,
+      "cacheWritePerMTok": 10,
+      "cacheWrite1hPerMTok": 16,
+      "priceRegion": null,
+      "longPromptTiers": [],
+      "contextWindow": 1000000,
+      "maxOutput": 128000,
+      "promotion": null,
+      "verifiedAt": "2026-11-10",
+      "sourceUrl": "https://platform.claude.com/docs/en/about-claude/pricing",
+      "pageUrl": "https://aisignalhq.com/models/anthropic-claude-fable-5-2/"
+    },
+    {
       "id": "anthropic/claude-haiku-4-5",
       "apiId": "claude-haiku-4-5-20251001",
       "maker": "anthropic",
@@ -298,6 +320,28 @@
       "verifiedAt": "2026-11-09",
       "sourceUrl": "https://platform.claude.com/docs/en/models/mythos-5-1/overview",
       "pageUrl": "https://aisignalhq.com/models/anthropic-claude-mythos-5-1/"
+    },
+    {
+      "id": "anthropic/claude-mythos-5-2",
+      "apiId": "claude-mythos-5-2",
+      "maker": "anthropic",
+      "makerName": "Anthropic",
+      "name": "Claude Mythos 5.2",
+      "status": "current",
+      "priceStatus": "priced",
+      "inputPerMTok": 8,
+      "outputPerMTok": 40,
+      "cachedInputPerMTok": 0.2,
+      "cacheWritePerMTok": 10,
+      "cacheWrite1hPerMTok": 16,
+      "priceRegion": null,
+      "longPromptTiers": [],
+      "contextWindow": 1000000,
+      "maxOutput": 128000,
+      "promotion": null,
+      "verifiedAt": "2026-11-10",
+      "sourceUrl": "https://platform.claude.com/docs/en/about-claude/pricing",
+      "pageUrl": "https://aisignalhq.com/models/anthropic-claude-mythos-5-2/"
     },
     {
       "id": "anthropic/claude-opus-4-5",
@@ -939,6 +983,35 @@
       "verifiedAt": "2026-11-09",
       "sourceUrl": "https://aistudio.google.com/docs/pricing",
       "pageUrl": "https://aisignalhq.com/models/google-gemini-robotics-er-2-streaming-preview/"
+    },
+    {
+      "id": "meta/muse-ember-1.0",
+      "apiId": "muse-ember-1.0",
+      "maker": "meta",
+      "makerName": "Meta",
+      "name": "Muse Ember",
+      "status": "current",
+      "priceStatus": "priced",
+      "inputPerMTok": 0.1,
+      "outputPerMTok": 0.5,
+      "cachedInputPerMTok": 0.004,
+      "cacheWritePerMTok": null,
+      "cacheWrite1hPerMTok": null,
+      "priceRegion": null,
+      "longPromptTiers": [
+        {
+          "condition": "prompt > 200000 tokens",
+          "input": 0.3,
+          "output": 1.5,
+          "cachedInput": 0.012
+        }
+      ],
+      "contextWindow": 1048576,
+      "maxOutput": 524288,
+      "promotion": null,
+      "verifiedAt": "2026-11-10",
+      "sourceUrl": "https://dev.meta.ai/models/muse-ember",
+      "pageUrl": "https://aisignalhq.com/models/meta-muse-ember-1.0/"
     },
     {
       "id": "meta/muse-spark-1.1",
