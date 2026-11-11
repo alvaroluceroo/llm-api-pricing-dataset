@@ -2,11 +2,11 @@
   "name": "AI Signal LLM API pricing dataset: current models",
   "publisher": "AI Signal",
   "homepage": "https://aisignalhq.com/data/",
-  "generatedAt": "2026-11-10T11:45:41.348Z",
+  "generatedAt": "2026-11-11T14:47:02.874Z",
   "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
   "attribution": "LLM API pricing data by AI Signal (https://aisignalhq.com/api-pricing/), licensed under CC BY 4.0.",
-  "rowCount": 82,
+  "rowCount": 83,
   "rows": [
     {
       "id": "alibaba/qwen3.7-flash",
@@ -923,6 +923,36 @@
       "verifiedAt": "2026-11-09",
       "sourceUrl": "https://aistudio.google.com/docs/pricing",
       "pageUrl": "https://aisignalhq.com/models/google-gemini-4-argon/"
+    },
+    {
+      "id": "google/gemini-4-carbon",
+      "apiId": "gemini-4-carbon",
+      "maker": "google",
+      "makerName": "Google",
+      "name": "Gemini 4 Carbon",
+      "status": "current",
+      "priceStatus": "priced",
+      "inputPerMTok": 2,
+      "outputPerMTok": 10,
+      "cachedInputPerMTok": 0.1,
+      "cacheWritePerMTok": null,
+      "cacheWrite1hPerMTok": null,
+      "priceRegion": null,
+      "longPromptTiers": [],
+      "contextWindow": 1048576,
+      "maxOutput": 65536,
+      "promotion": {
+        "endsOn": "2026-11-30",
+        "atLeastUntil": false,
+        "listPriceAfter": {
+          "input": 4,
+          "output": 20,
+          "cachedInput": 0.2
+        }
+      },
+      "verifiedAt": "2026-11-11",
+      "sourceUrl": "https://aistudio.google.com/docs/pricing",
+      "pageUrl": "https://aisignalhq.com/models/google-gemini-4-carbon/"
     },
     {
       "id": "google/gemini-robotics-er-2-preview",
