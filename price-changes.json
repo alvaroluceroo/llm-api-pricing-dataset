@@ -2,11 +2,11 @@
   "name": "AI Signal LLM API pricing dataset: recorded price changes",
   "publisher": "AI Signal",
   "homepage": "https://aisignalhq.com/data/",
-  "generatedAt": "2026-11-11T14:47:02.876Z",
+  "generatedAt": "2026-11-11T15:05:21.144Z",
   "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
   "attribution": "LLM API pricing data by AI Signal (https://aisignalhq.com/api-pricing/), licensed under CC BY 4.0.",
-  "rowCount": 34,
+  "rowCount": 35,
   "rows": [
     {
       "id": "google-flash-promo-ends",
@@ -85,6 +85,33 @@
       "summary": "Gemini 4 Argon pricing is introductory until November 30, 2026. On December 1, 2026 it doubles: input from $2.00 to $4.00 and output from $10.00 to $20.00 per million tokens, the list prices Google shows next to the introductory ones.",
       "sourceUrl": "https://aistudio.google.com/docs/pricing",
       "pageUrl": "https://aisignalhq.com/price-changes/#google-gemini-4-argon-promo-ends"
+    },
+    {
+      "id": "google-gemini-4-carbon-promo-ends",
+      "effectiveDate": "2026-12-01",
+      "provider": "google",
+      "kind": "provider",
+      "direction": "increase",
+      "multiplier": 2,
+      "affects": [
+        "google/gemini-4-carbon"
+      ],
+      "figures": [
+        {
+          "model": "google/gemini-4-carbon",
+          "before": {
+            "input": 2,
+            "output": 10
+          },
+          "after": {
+            "input": 4,
+            "output": 20
+          }
+        }
+      ],
+      "summary": "Gemini 4 Carbon pricing is introductory until November 30, 2026. On December 1, 2026 it doubles: input from $2.00 to $4.00 and output from $10.00 to $20.00 per million tokens, the list prices Google shows next to the introductory ones.",
+      "sourceUrl": "https://aistudio.google.com/docs/pricing",
+      "pageUrl": "https://aisignalhq.com/price-changes/#google-gemini-4-carbon-promo-ends"
     },
     {
       "id": "openai-gpt-5-6-sol-promo-until-november-30",
