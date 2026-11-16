@@ -2,11 +2,11 @@
   "name": "AI Signal LLM API pricing dataset: current models",
   "publisher": "AI Signal",
   "homepage": "https://aisignalhq.com/data/",
-  "generatedAt": "2026-11-16T07:11:19.402Z",
+  "generatedAt": "2026-11-16T10:09:32.993Z",
   "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
   "attribution": "LLM API pricing data by AI Signal (https://aisignalhq.com/api-pricing/), licensed under CC BY 4.0.",
-  "rowCount": 85,
+  "rowCount": 84,
   "rows": [
     {
       "id": "alibaba/qwen3.7-flash",
@@ -1482,28 +1482,6 @@
       "verifiedAt": "2026-11-16",
       "sourceUrl": "https://developers.openai.com/api/docs/pricing",
       "pageUrl": "https://aisignalhq.com/models/openai-gpt-5.4-mini/"
-    },
-    {
-      "id": "openai/gpt-5.5-cyber",
-      "apiId": "gpt-5.5-cyber",
-      "maker": "openai",
-      "makerName": "OpenAI",
-      "name": "GPT-5.5 Cyber",
-      "status": "current",
-      "priceStatus": "priced",
-      "inputPerMTok": 12.5,
-      "outputPerMTok": 75,
-      "cachedInputPerMTok": 1.25,
-      "cacheWritePerMTok": null,
-      "cacheWrite1hPerMTok": null,
-      "priceRegion": null,
-      "longPromptTiers": [],
-      "contextWindow": null,
-      "maxOutput": null,
-      "promotion": null,
-      "verifiedAt": "2026-11-09",
-      "sourceUrl": "https://developers.openai.com/api/docs/pricing",
-      "pageUrl": "https://aisignalhq.com/models/openai-gpt-5.5-cyber/"
     },
     {
       "id": "openai/gpt-5.6-cyber",
