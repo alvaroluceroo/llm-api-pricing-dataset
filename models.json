@@ -2,11 +2,11 @@
   "name": "AI Signal LLM API pricing dataset: current models",
   "publisher": "AI Signal",
   "homepage": "https://aisignalhq.com/data/",
-  "generatedAt": "2026-11-13T13:14:57.884Z",
+  "generatedAt": "2026-11-16T06:47:39.671Z",
   "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
   "attribution": "LLM API pricing data by AI Signal (https://aisignalhq.com/api-pricing/), licensed under CC BY 4.0.",
-  "rowCount": 84,
+  "rowCount": 85,
   "rows": [
     {
       "id": "alibaba/qwen3.7-flash",
@@ -159,6 +159,28 @@
       "verifiedAt": "2026-09-28",
       "sourceUrl": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
       "pageUrl": "https://aisignalhq.com/models/alibaba-qwen3.8-omni-flash/"
+    },
+    {
+      "id": "alibaba/qwen4-max",
+      "apiId": "qwen4-max",
+      "maker": "alibaba",
+      "makerName": "Alibaba (Qwen)",
+      "name": "Qwen4-Max",
+      "status": "current",
+      "priceStatus": "priced",
+      "inputPerMTok": 1.5,
+      "outputPerMTok": 4.5,
+      "cachedInputPerMTok": 0.075,
+      "cacheWritePerMTok": null,
+      "cacheWrite1hPerMTok": null,
+      "priceRegion": "Singapore (International)",
+      "longPromptTiers": [],
+      "contextWindow": 1000000,
+      "maxOutput": 131072,
+      "promotion": null,
+      "verifiedAt": "2026-11-16",
+      "sourceUrl": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
+      "pageUrl": "https://aisignalhq.com/models/alibaba-qwen4-max/"
     },
     {
       "id": "anthropic/claude-fable-5",
