@@ -2,11 +2,11 @@
   "name": "AI Signal LLM API pricing dataset: recorded price changes",
   "publisher": "AI Signal",
   "homepage": "https://aisignalhq.com/data/",
-  "generatedAt": "2026-11-16T10:09:32.996Z",
+  "generatedAt": "2026-11-17T19:39:54.833Z",
   "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
   "attribution": "LLM API pricing data by AI Signal (https://aisignalhq.com/api-pricing/), licensed under CC BY 4.0.",
-  "rowCount": 36,
+  "rowCount": 37,
   "rows": [
     {
       "id": "google-flash-promo-ends",
@@ -112,6 +112,33 @@
       "summary": "Gemini 4 Carbon pricing is introductory until November 30, 2026. On December 1, 2026 it doubles: input from $2.00 to $4.00 and output from $10.00 to $20.00 per million tokens, the list prices Google shows next to the introductory ones.",
       "sourceUrl": "https://aistudio.google.com/docs/pricing",
       "pageUrl": "https://aisignalhq.com/price-changes/#google-gemini-4-carbon-promo-ends"
+    },
+    {
+      "id": "openai-gpt-6-rosalind-price-down",
+      "effectiveDate": "2026-11-17",
+      "provider": "openai",
+      "kind": "provider",
+      "direction": "decrease",
+      "multiplier": 1.5,
+      "affects": [
+        "openai/gpt-6-rosalind"
+      ],
+      "figures": [
+        {
+          "model": "openai/gpt-6-rosalind",
+          "before": {
+            "input": 15,
+            "output": 75
+          },
+          "after": {
+            "input": 10,
+            "output": 50
+          }
+        }
+      ],
+      "summary": "OpenAI cut the price of GPT-6 Rosalind, a restricted life-sciences model, from $15.00 to $10.00 per million input tokens (15.00 ÷ 10.00 = 1.5×) and from $75.00 to $50.00 for output (1.5×), and made it promotional. The last reading at the old price was the weekly check of November 16, 2026, 'gpt-6-rosalind | $15.00 | $75.00 | $1.50 | $18.75 | $37.50 |'; on November 17, 2026 the Markdown version of the pricing page printed 'gpt-6-rosalind (short context) | $10.00 | $50.00 | $1.00 | $12.50 | $25.00 |' and 'gpt-6-rosalind (long context) | $20.00 | $75.00 | $2.00 | $25.00 | $50.00 |', with 'GPT-6 Astra for Law, GPT-6.2 Astra for Law, and GPT-6 Rosalind promotional pricing is available at least through December 31, 2026.' 'At least through' is not a firm end date, and OpenAI publishes no list price for after the promotion. The same paragraph adds: 'For standalone FedRAMP endpoints, GPT-6 Rosalind rates are 10% above the corresponding global rates.' OpenAI's changelog does not date the change, so the date here is the first day it was seen.",
+      "sourceUrl": "https://developers.openai.com/api/docs/pricing",
+      "pageUrl": "https://aisignalhq.com/price-changes/#openai-gpt-6-rosalind-price-down"
     },
     {
       "id": "openai-gpt-4o-gpt-4-1-shutdown-date-found",

@@ -2,11 +2,11 @@
   "name": "AI Signal LLM API pricing dataset: current models",
   "publisher": "AI Signal",
   "homepage": "https://aisignalhq.com/data/",
-  "generatedAt": "2026-11-16T10:09:32.993Z",
+  "generatedAt": "2026-11-17T19:39:54.831Z",
   "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
   "attribution": "LLM API pricing data by AI Signal (https://aisignalhq.com/api-pricing/), licensed under CC BY 4.0.",
-  "rowCount": 84,
+  "rowCount": 86,
   "rows": [
     {
       "id": "alibaba/qwen3.7-flash",
@@ -1684,24 +1684,28 @@
       "name": "GPT-6 Rosalind",
       "status": "current",
       "priceStatus": "priced",
-      "inputPerMTok": 15,
-      "outputPerMTok": 75,
-      "cachedInputPerMTok": 1.5,
-      "cacheWritePerMTok": 18.75,
+      "inputPerMTok": 10,
+      "outputPerMTok": 50,
+      "cachedInputPerMTok": 1,
+      "cacheWritePerMTok": 12.5,
       "cacheWrite1hPerMTok": null,
       "priceRegion": null,
       "longPromptTiers": [
         {
           "condition": "prompt > 272000 tokens",
-          "input": 30,
-          "output": 112.5,
-          "cachedInput": 3
+          "input": 20,
+          "output": 75,
+          "cachedInput": 2
         }
       ],
       "contextWindow": null,
       "maxOutput": null,
-      "promotion": null,
-      "verifiedAt": "2026-11-16",
+      "promotion": {
+        "endsOn": "2026-12-31",
+        "atLeastUntil": true,
+        "listPriceAfter": null
+      },
+      "verifiedAt": "2026-11-17",
       "sourceUrl": "https://developers.openai.com/api/docs/pricing",
       "pageUrl": "https://aisignalhq.com/models/openai-gpt-6-rosalind/"
     },
@@ -1791,6 +1795,64 @@
       "verifiedAt": "2026-11-16",
       "sourceUrl": "https://developers.openai.com/api/docs/pricing",
       "pageUrl": "https://aisignalhq.com/models/openai-gpt-6.1-terra/"
+    },
+    {
+      "id": "openai/gpt-6.2-astra",
+      "apiId": "gpt-6.2-astra",
+      "maker": "openai",
+      "makerName": "OpenAI",
+      "name": "GPT-6.2 Astra",
+      "status": "current",
+      "priceStatus": "priced",
+      "inputPerMTok": 8,
+      "outputPerMTok": 40,
+      "cachedInputPerMTok": 0.4,
+      "cacheWritePerMTok": 10,
+      "cacheWrite1hPerMTok": null,
+      "priceRegion": null,
+      "longPromptTiers": [
+        {
+          "condition": "prompt > 272000 tokens",
+          "input": 16,
+          "output": 60,
+          "cachedInput": 0.8
+        }
+      ],
+      "contextWindow": 1050000,
+      "maxOutput": 128000,
+      "promotion": null,
+      "verifiedAt": "2026-11-17",
+      "sourceUrl": "https://developers.openai.com/api/docs/pricing",
+      "pageUrl": "https://aisignalhq.com/models/openai-gpt-6.2-astra/"
+    },
+    {
+      "id": "openai/gpt-6.2-sol",
+      "apiId": "gpt-6.2-sol",
+      "maker": "openai",
+      "makerName": "OpenAI",
+      "name": "GPT-6.2 Sol",
+      "status": "current",
+      "priceStatus": "priced",
+      "inputPerMTok": 2,
+      "outputPerMTok": 10,
+      "cachedInputPerMTok": 0.1,
+      "cacheWritePerMTok": 2.5,
+      "cacheWrite1hPerMTok": null,
+      "priceRegion": null,
+      "longPromptTiers": [
+        {
+          "condition": "prompt > 272000 tokens",
+          "input": 4,
+          "output": 15,
+          "cachedInput": 0.2
+        }
+      ],
+      "contextWindow": 1050000,
+      "maxOutput": 128000,
+      "promotion": null,
+      "verifiedAt": "2026-11-17",
+      "sourceUrl": "https://developers.openai.com/api/docs/pricing",
+      "pageUrl": "https://aisignalhq.com/models/openai-gpt-6.2-sol/"
     },
     {
       "id": "openai/gpt-rosalind-research",
