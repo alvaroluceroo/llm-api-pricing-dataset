@@ -2,7 +2,7 @@
   "name": "AI Signal LLM API pricing dataset: current models",
   "publisher": "AI Signal",
   "homepage": "https://aisignalhq.com/data/",
-  "generatedAt": "2026-11-23T06:51:53.519Z",
+  "generatedAt": "2026-11-23T07:33:53.855Z",
   "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
   "attribution": "LLM API pricing data by AI Signal (https://aisignalhq.com/api-pricing/), licensed under CC BY 4.0.",
@@ -1894,7 +1894,7 @@
       "contextWindow": null,
       "maxOutput": null,
       "promotion": null,
-      "verifiedAt": "2026-11-16",
+      "verifiedAt": "2026-11-23",
       "sourceUrl": "https://developers.openai.com/api/docs/pricing",
       "pageUrl": "https://aisignalhq.com/models/openai-gpt-rosalind-research/"
     },
@@ -1916,7 +1916,7 @@
       "contextWindow": null,
       "maxOutput": null,
       "promotion": null,
-      "verifiedAt": "2026-11-16",
+      "verifiedAt": "2026-11-23",
       "sourceUrl": "https://developers.openai.com/api/docs/pricing",
       "pageUrl": "https://aisignalhq.com/models/openai-gpt-rosalind-discovery/"
     },
