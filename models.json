@@ -2,11 +2,11 @@
   "name": "AI Signal LLM API pricing dataset: current models",
   "publisher": "AI Signal",
   "homepage": "https://aisignalhq.com/data/",
-  "generatedAt": "2026-11-17T19:39:54.831Z",
+  "generatedAt": "2026-11-23T06:51:53.519Z",
   "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
   "attribution": "LLM API pricing data by AI Signal (https://aisignalhq.com/api-pricing/), licensed under CC BY 4.0.",
-  "rowCount": 86,
+  "rowCount": 87,
   "rows": [
     {
       "id": "alibaba/qwen3.7-flash",
@@ -200,7 +200,7 @@
       "contextWindow": 1000000,
       "maxOutput": 128000,
       "promotion": null,
-      "verifiedAt": "2026-11-16",
+      "verifiedAt": "2026-11-23",
       "sourceUrl": "https://platform.claude.com/docs/en/about-claude/pricing",
       "pageUrl": "https://aisignalhq.com/models/anthropic-claude-fable-5/"
     },
@@ -222,7 +222,7 @@
       "contextWindow": 1000000,
       "maxOutput": 128000,
       "promotion": null,
-      "verifiedAt": "2026-11-16",
+      "verifiedAt": "2026-11-23",
       "sourceUrl": "https://platform.claude.com/docs/en/about-claude/pricing",
       "pageUrl": "https://aisignalhq.com/models/anthropic-claude-fable-5-1/"
     },
@@ -244,7 +244,7 @@
       "contextWindow": 1000000,
       "maxOutput": 128000,
       "promotion": null,
-      "verifiedAt": "2026-11-16",
+      "verifiedAt": "2026-11-23",
       "sourceUrl": "https://platform.claude.com/docs/en/about-claude/pricing",
       "pageUrl": "https://aisignalhq.com/models/anthropic-claude-fable-5-2/"
     },
@@ -266,7 +266,7 @@
       "contextWindow": 200000,
       "maxOutput": 64000,
       "promotion": null,
-      "verifiedAt": "2026-11-16",
+      "verifiedAt": "2026-11-23",
       "sourceUrl": "https://platform.claude.com/docs/en/about-claude/pricing",
       "pageUrl": "https://aisignalhq.com/models/anthropic-claude-haiku-4-5/"
     },
@@ -295,7 +295,7 @@
       "contextWindow": 1000000,
       "maxOutput": 128000,
       "promotion": null,
-      "verifiedAt": "2026-11-16",
+      "verifiedAt": "2026-11-23",
       "sourceUrl": "https://platform.claude.com/docs/en/about-claude/pricing",
       "pageUrl": "https://aisignalhq.com/models/anthropic-claude-haiku-5-5/"
     },
@@ -317,7 +317,7 @@
       "contextWindow": 1000000,
       "maxOutput": 128000,
       "promotion": null,
-      "verifiedAt": "2026-11-16",
+      "verifiedAt": "2026-11-23",
       "sourceUrl": "https://platform.claude.com/docs/en/about-claude/pricing",
       "pageUrl": "https://aisignalhq.com/models/anthropic-claude-mythos-5/"
     },
@@ -339,7 +339,7 @@
       "contextWindow": 1000000,
       "maxOutput": 128000,
       "promotion": null,
-      "verifiedAt": "2026-11-16",
+      "verifiedAt": "2026-11-23",
       "sourceUrl": "https://platform.claude.com/docs/en/models/mythos-5-1/overview",
       "pageUrl": "https://aisignalhq.com/models/anthropic-claude-mythos-5-1/"
     },
@@ -361,7 +361,7 @@
       "contextWindow": 1000000,
       "maxOutput": 128000,
       "promotion": null,
-      "verifiedAt": "2026-11-16",
+      "verifiedAt": "2026-11-23",
       "sourceUrl": "https://platform.claude.com/docs/en/about-claude/pricing",
       "pageUrl": "https://aisignalhq.com/models/anthropic-claude-mythos-5-2/"
     },
@@ -383,7 +383,7 @@
       "contextWindow": 200000,
       "maxOutput": 64000,
       "promotion": null,
-      "verifiedAt": "2026-11-16",
+      "verifiedAt": "2026-11-23",
       "sourceUrl": "https://platform.claude.com/docs/en/about-claude/pricing",
       "pageUrl": "https://aisignalhq.com/models/anthropic-claude-opus-4-5/"
     },
@@ -405,7 +405,7 @@
       "contextWindow": 1000000,
       "maxOutput": 128000,
       "promotion": null,
-      "verifiedAt": "2026-11-16",
+      "verifiedAt": "2026-11-23",
       "sourceUrl": "https://platform.claude.com/docs/en/about-claude/pricing",
       "pageUrl": "https://aisignalhq.com/models/anthropic-claude-opus-4-6/"
     },
@@ -427,7 +427,7 @@
       "contextWindow": 1000000,
       "maxOutput": 128000,
       "promotion": null,
-      "verifiedAt": "2026-11-16",
+      "verifiedAt": "2026-11-23",
       "sourceUrl": "https://platform.claude.com/docs/en/about-claude/pricing",
       "pageUrl": "https://aisignalhq.com/models/anthropic-claude-opus-4-7/"
     },
@@ -449,7 +449,7 @@
       "contextWindow": 1000000,
       "maxOutput": 128000,
       "promotion": null,
-      "verifiedAt": "2026-11-16",
+      "verifiedAt": "2026-11-23",
       "sourceUrl": "https://platform.claude.com/docs/en/about-claude/pricing",
       "pageUrl": "https://aisignalhq.com/models/anthropic-claude-opus-4-8/"
     },
@@ -471,7 +471,7 @@
       "contextWindow": 1000000,
       "maxOutput": 128000,
       "promotion": null,
-      "verifiedAt": "2026-11-16",
+      "verifiedAt": "2026-11-23",
       "sourceUrl": "https://platform.claude.com/docs/en/about-claude/pricing",
       "pageUrl": "https://aisignalhq.com/models/anthropic-claude-opus-5/"
     },
@@ -493,7 +493,7 @@
       "contextWindow": 1000000,
       "maxOutput": 128000,
       "promotion": null,
-      "verifiedAt": "2026-11-16",
+      "verifiedAt": "2026-11-23",
       "sourceUrl": "https://platform.claude.com/docs/en/about-claude/pricing",
       "pageUrl": "https://aisignalhq.com/models/anthropic-claude-opus-5-5/"
     },
@@ -515,7 +515,7 @@
       "contextWindow": 1000000,
       "maxOutput": 128000,
       "promotion": null,
-      "verifiedAt": "2026-11-16",
+      "verifiedAt": "2026-11-23",
       "sourceUrl": "https://platform.claude.com/docs/en/about-claude/pricing",
       "pageUrl": "https://aisignalhq.com/models/anthropic-claude-sonnet-4-6/"
     },
@@ -537,7 +537,7 @@
       "contextWindow": 1000000,
       "maxOutput": 128000,
       "promotion": null,
-      "verifiedAt": "2026-11-16",
+      "verifiedAt": "2026-11-23",
       "sourceUrl": "https://platform.claude.com/docs/en/about-claude/pricing",
       "pageUrl": "https://aisignalhq.com/models/anthropic-claude-sonnet-5/"
     },
@@ -559,7 +559,7 @@
       "contextWindow": 1000000,
       "maxOutput": 128000,
       "promotion": null,
-      "verifiedAt": "2026-11-16",
+      "verifiedAt": "2026-11-23",
       "sourceUrl": "https://platform.claude.com/docs/en/about-claude/pricing",
       "pageUrl": "https://aisignalhq.com/models/anthropic-claude-sonnet-5-5/"
     },
@@ -757,7 +757,7 @@
       "contextWindow": 1000000,
       "maxOutput": 384000,
       "promotion": null,
-      "verifiedAt": "2026-11-16",
+      "verifiedAt": "2026-11-23",
       "sourceUrl": "https://api-docs.deepseek.com/quick_start/pricing/",
       "pageUrl": "https://aisignalhq.com/models/deepseek-deepseek-v4-pro/"
     },
@@ -779,7 +779,7 @@
       "contextWindow": 1000000,
       "maxOutput": 384000,
       "promotion": null,
-      "verifiedAt": "2026-11-16",
+      "verifiedAt": "2026-11-23",
       "sourceUrl": "https://api-docs.deepseek.com/quick_start/pricing/",
       "pageUrl": "https://aisignalhq.com/models/deepseek-deepseek-flash/"
     },
@@ -801,7 +801,7 @@
       "contextWindow": 1048576,
       "maxOutput": 65536,
       "promotion": null,
-      "verifiedAt": "2026-11-16",
+      "verifiedAt": "2026-11-23",
       "sourceUrl": "https://aistudio.google.com/docs/pricing",
       "pageUrl": "https://aisignalhq.com/models/google-gemini-2.5-flash-lite/"
     },
@@ -830,7 +830,7 @@
       "contextWindow": 1048576,
       "maxOutput": 65536,
       "promotion": null,
-      "verifiedAt": "2026-11-16",
+      "verifiedAt": "2026-11-23",
       "sourceUrl": "https://aistudio.google.com/docs/pricing",
       "pageUrl": "https://aisignalhq.com/models/google-gemini-3.1-pro-preview/"
     },
@@ -852,7 +852,7 @@
       "contextWindow": 1048576,
       "maxOutput": 65536,
       "promotion": null,
-      "verifiedAt": "2026-11-16",
+      "verifiedAt": "2026-11-23",
       "sourceUrl": "https://aistudio.google.com/docs/pricing",
       "pageUrl": "https://aisignalhq.com/models/google-gemini-3.5-flash-lite/"
     },
@@ -882,7 +882,7 @@
           "cachedInput": 0.15
         }
       },
-      "verifiedAt": "2026-11-16",
+      "verifiedAt": "2026-11-23",
       "sourceUrl": "https://aistudio.google.com/docs/pricing",
       "pageUrl": "https://aisignalhq.com/models/google-gemini-3.6-flash/"
     },
@@ -912,7 +912,7 @@
           "cachedInput": 0.15
         }
       },
-      "verifiedAt": "2026-11-16",
+      "verifiedAt": "2026-11-23",
       "sourceUrl": "https://aistudio.google.com/docs/pricing",
       "pageUrl": "https://aisignalhq.com/models/google-gemini-3.8-flash/"
     },
@@ -942,7 +942,7 @@
           "cachedInput": 0.2
         }
       },
-      "verifiedAt": "2026-11-16",
+      "verifiedAt": "2026-11-23",
       "sourceUrl": "https://aistudio.google.com/docs/pricing",
       "pageUrl": "https://aisignalhq.com/models/google-gemini-4-argon/"
     },
@@ -972,7 +972,7 @@
           "cachedInput": 0.2
         }
       },
-      "verifiedAt": "2026-11-16",
+      "verifiedAt": "2026-11-23",
       "sourceUrl": "https://aistudio.google.com/docs/pricing",
       "pageUrl": "https://aisignalhq.com/models/google-gemini-4-carbon/"
     },
@@ -994,9 +994,31 @@
       "contextWindow": 1048576,
       "maxOutput": 65536,
       "promotion": null,
-      "verifiedAt": "2026-11-16",
+      "verifiedAt": "2026-11-23",
       "sourceUrl": "https://aistudio.google.com/docs/pricing",
       "pageUrl": "https://aisignalhq.com/models/google-gemini-4-hydrogen/"
+    },
+    {
+      "id": "google/gemini-4-neon",
+      "apiId": "gemini-4-neon",
+      "maker": "google",
+      "makerName": "Google",
+      "name": "Gemini 4 Neon",
+      "status": "current",
+      "priceStatus": "priced",
+      "inputPerMTok": 3,
+      "outputPerMTok": 15,
+      "cachedInputPerMTok": 0.15,
+      "cacheWritePerMTok": null,
+      "cacheWrite1hPerMTok": null,
+      "priceRegion": null,
+      "longPromptTiers": [],
+      "contextWindow": 1048576,
+      "maxOutput": 65536,
+      "promotion": null,
+      "verifiedAt": "2026-11-23",
+      "sourceUrl": "https://aistudio.google.com/docs/pricing",
+      "pageUrl": "https://aisignalhq.com/models/google-gemini-4-neon/"
     },
     {
       "id": "google/gemini-robotics-er-2-preview",
@@ -1024,7 +1046,7 @@
           "cachedInput": 0.2
         }
       },
-      "verifiedAt": "2026-11-16",
+      "verifiedAt": "2026-11-23",
       "sourceUrl": "https://aistudio.google.com/docs/pricing",
       "pageUrl": "https://aisignalhq.com/models/google-gemini-robotics-er-2-preview/"
     },
@@ -1054,7 +1076,7 @@
           "cachedInput": null
         }
       },
-      "verifiedAt": "2026-11-16",
+      "verifiedAt": "2026-11-23",
       "sourceUrl": "https://aistudio.google.com/docs/pricing",
       "pageUrl": "https://aisignalhq.com/models/google-gemini-robotics-er-2-streaming-preview/"
     },
@@ -1193,7 +1215,7 @@
       "contextWindow": 128000,
       "maxOutput": null,
       "promotion": null,
-      "verifiedAt": "2026-11-16",
+      "verifiedAt": "2026-11-23",
       "sourceUrl": "https://docs.mistral.ai/inference/pricing",
       "pageUrl": "https://aisignalhq.com/models/mistral-codestral/"
     },
@@ -1215,7 +1237,7 @@
       "contextWindow": 1000000,
       "maxOutput": 128000,
       "promotion": null,
-      "verifiedAt": "2026-11-16",
+      "verifiedAt": "2026-11-23",
       "sourceUrl": "https://docs.mistral.ai/inference/pricing",
       "pageUrl": "https://aisignalhq.com/models/mistral-deepseek-v4.1-flash-1017/"
     },
@@ -1237,7 +1259,7 @@
       "contextWindow": 1000000,
       "maxOutput": 128000,
       "promotion": null,
-      "verifiedAt": "2026-11-16",
+      "verifiedAt": "2026-11-23",
       "sourceUrl": "https://docs.mistral.ai/inference/pricing",
       "pageUrl": "https://aisignalhq.com/models/mistral-glm-5.3/"
     },
@@ -1259,7 +1281,7 @@
       "contextWindow": 1000000,
       "maxOutput": 128000,
       "promotion": null,
-      "verifiedAt": "2026-11-16",
+      "verifiedAt": "2026-11-23",
       "sourceUrl": "https://docs.mistral.ai/inference/pricing",
       "pageUrl": "https://aisignalhq.com/models/mistral-glm-5.3-flash/"
     },
@@ -1281,7 +1303,7 @@
       "contextWindow": 256000,
       "maxOutput": null,
       "promotion": null,
-      "verifiedAt": "2026-11-16",
+      "verifiedAt": "2026-11-23",
       "sourceUrl": "https://docs.mistral.ai/inference/pricing",
       "pageUrl": "https://aisignalhq.com/models/mistral-ministral-3-14b/"
     },
@@ -1303,7 +1325,7 @@
       "contextWindow": 256000,
       "maxOutput": null,
       "promotion": null,
-      "verifiedAt": "2026-11-16",
+      "verifiedAt": "2026-11-23",
       "sourceUrl": "https://docs.mistral.ai/inference/pricing",
       "pageUrl": "https://aisignalhq.com/models/mistral-ministral-3-3b/"
     },
@@ -1325,7 +1347,7 @@
       "contextWindow": 256000,
       "maxOutput": null,
       "promotion": null,
-      "verifiedAt": "2026-11-16",
+      "verifiedAt": "2026-11-23",
       "sourceUrl": "https://docs.mistral.ai/inference/pricing",
       "pageUrl": "https://aisignalhq.com/models/mistral-ministral-3-8b/"
     },
@@ -1347,7 +1369,7 @@
       "contextWindow": 1000000,
       "maxOutput": null,
       "promotion": null,
-      "verifiedAt": "2026-11-16",
+      "verifiedAt": "2026-11-23",
       "sourceUrl": "https://docs.mistral.ai/inference/pricing",
       "pageUrl": "https://aisignalhq.com/models/mistral-mistral-large-4/"
     },
@@ -1369,7 +1391,7 @@
       "contextWindow": 256000,
       "maxOutput": null,
       "promotion": null,
-      "verifiedAt": "2026-11-16",
+      "verifiedAt": "2026-11-23",
       "sourceUrl": "https://docs.mistral.ai/inference/pricing",
       "pageUrl": "https://aisignalhq.com/models/mistral-mistral-small-4/"
     },
@@ -1391,7 +1413,7 @@
       "contextWindow": 400000,
       "maxOutput": 128000,
       "promotion": null,
-      "verifiedAt": "2026-11-16",
+      "verifiedAt": "2026-11-23",
       "sourceUrl": "https://developers.openai.com/api/docs/pricing",
       "pageUrl": "https://aisignalhq.com/models/openai-chat-latest/"
     },
@@ -1413,7 +1435,7 @@
       "contextWindow": null,
       "maxOutput": null,
       "promotion": null,
-      "verifiedAt": "2026-11-16",
+      "verifiedAt": "2026-11-23",
       "sourceUrl": "https://developers.openai.com/api/docs/pricing",
       "pageUrl": "https://aisignalhq.com/models/openai-gpt-5-search-api/"
     },
@@ -1435,7 +1457,7 @@
       "contextWindow": 400000,
       "maxOutput": 128000,
       "promotion": null,
-      "verifiedAt": "2026-11-16",
+      "verifiedAt": "2026-11-23",
       "sourceUrl": "https://developers.openai.com/api/docs/pricing",
       "pageUrl": "https://aisignalhq.com/models/openai-gpt-5.2/"
     },
@@ -1457,7 +1479,7 @@
       "contextWindow": 400000,
       "maxOutput": 128000,
       "promotion": null,
-      "verifiedAt": "2026-11-16",
+      "verifiedAt": "2026-11-23",
       "sourceUrl": "https://developers.openai.com/api/docs/pricing",
       "pageUrl": "https://aisignalhq.com/models/openai-gpt-5.2-pro/"
     },
@@ -1479,7 +1501,7 @@
       "contextWindow": 400000,
       "maxOutput": 128000,
       "promotion": null,
-      "verifiedAt": "2026-11-16",
+      "verifiedAt": "2026-11-23",
       "sourceUrl": "https://developers.openai.com/api/docs/pricing",
       "pageUrl": "https://aisignalhq.com/models/openai-gpt-5.4-mini/"
     },
@@ -1501,7 +1523,7 @@
       "contextWindow": 400000,
       "maxOutput": 128000,
       "promotion": null,
-      "verifiedAt": "2026-11-16",
+      "verifiedAt": "2026-11-23",
       "sourceUrl": "https://developers.openai.com/api/docs/models/gpt-5.6-cyber",
       "pageUrl": "https://aisignalhq.com/models/openai-gpt-5.6-cyber/"
     },
@@ -1530,7 +1552,7 @@
       "contextWindow": 1050000,
       "maxOutput": 128000,
       "promotion": null,
-      "verifiedAt": "2026-11-16",
+      "verifiedAt": "2026-11-23",
       "sourceUrl": "https://developers.openai.com/api/docs/models/gpt-5.6-luna",
       "pageUrl": "https://aisignalhq.com/models/openai-gpt-5.6-luna/"
     },
@@ -1563,7 +1585,7 @@
         "atLeastUntil": false,
         "listPriceAfter": null
       },
-      "verifiedAt": "2026-11-16",
+      "verifiedAt": "2026-11-23",
       "sourceUrl": "https://developers.openai.com/api/docs/pricing",
       "pageUrl": "https://aisignalhq.com/models/openai-gpt-5.6-sol/"
     },
@@ -1592,7 +1614,7 @@
       "contextWindow": 1050000,
       "maxOutput": 128000,
       "promotion": null,
-      "verifiedAt": "2026-11-16",
+      "verifiedAt": "2026-11-23",
       "sourceUrl": "https://developers.openai.com/api/docs/models/gpt-5.6-terra",
       "pageUrl": "https://aisignalhq.com/models/openai-gpt-5.6-terra/"
     },
@@ -1621,7 +1643,7 @@
       "contextWindow": 1050000,
       "maxOutput": 128000,
       "promotion": null,
-      "verifiedAt": "2026-11-16",
+      "verifiedAt": "2026-11-23",
       "sourceUrl": "https://developers.openai.com/api/docs/pricing",
       "pageUrl": "https://aisignalhq.com/models/openai-gpt-6-astra/"
     },
@@ -1643,7 +1665,7 @@
       "contextWindow": 1050000,
       "maxOutput": 128000,
       "promotion": null,
-      "verifiedAt": "2026-11-16",
+      "verifiedAt": "2026-11-23",
       "sourceUrl": "https://developers.openai.com/api/docs/models/gpt-6-cyber",
       "pageUrl": "https://aisignalhq.com/models/openai-gpt-6-cyber/"
     },
@@ -1672,7 +1694,7 @@
       "contextWindow": 1050000,
       "maxOutput": 128000,
       "promotion": null,
-      "verifiedAt": "2026-11-16",
+      "verifiedAt": "2026-11-23",
       "sourceUrl": "https://developers.openai.com/api/docs/pricing",
       "pageUrl": "https://aisignalhq.com/models/openai-gpt-6-luna/"
     },
@@ -1705,7 +1727,7 @@
         "atLeastUntil": true,
         "listPriceAfter": null
       },
-      "verifiedAt": "2026-11-17",
+      "verifiedAt": "2026-11-23",
       "sourceUrl": "https://developers.openai.com/api/docs/pricing",
       "pageUrl": "https://aisignalhq.com/models/openai-gpt-6-rosalind/"
     },
@@ -1734,7 +1756,7 @@
       "contextWindow": 1050000,
       "maxOutput": 128000,
       "promotion": null,
-      "verifiedAt": "2026-11-16",
+      "verifiedAt": "2026-11-23",
       "sourceUrl": "https://developers.openai.com/api/docs/models/gpt-6-sol",
       "pageUrl": "https://aisignalhq.com/models/openai-gpt-6-sol/"
     },
@@ -1763,7 +1785,7 @@
       "contextWindow": 1050000,
       "maxOutput": 128000,
       "promotion": null,
-      "verifiedAt": "2026-11-16",
+      "verifiedAt": "2026-11-23",
       "sourceUrl": "https://developers.openai.com/api/docs/pricing",
       "pageUrl": "https://aisignalhq.com/models/openai-gpt-6.1-sol/"
     },
@@ -1792,7 +1814,7 @@
       "contextWindow": 1050000,
       "maxOutput": 128000,
       "promotion": null,
-      "verifiedAt": "2026-11-16",
+      "verifiedAt": "2026-11-23",
       "sourceUrl": "https://developers.openai.com/api/docs/pricing",
       "pageUrl": "https://aisignalhq.com/models/openai-gpt-6.1-terra/"
     },
@@ -1821,7 +1843,7 @@
       "contextWindow": 1050000,
       "maxOutput": 128000,
       "promotion": null,
-      "verifiedAt": "2026-11-17",
+      "verifiedAt": "2026-11-23",
       "sourceUrl": "https://developers.openai.com/api/docs/pricing",
       "pageUrl": "https://aisignalhq.com/models/openai-gpt-6.2-astra/"
     },
@@ -1850,7 +1872,7 @@
       "contextWindow": 1050000,
       "maxOutput": 128000,
       "promotion": null,
-      "verifiedAt": "2026-11-17",
+      "verifiedAt": "2026-11-23",
       "sourceUrl": "https://developers.openai.com/api/docs/pricing",
       "pageUrl": "https://aisignalhq.com/models/openai-gpt-6.2-sol/"
     },
@@ -1923,7 +1945,7 @@
       "contextWindow": 1000000,
       "maxOutput": null,
       "promotion": null,
-      "verifiedAt": "2026-11-16",
+      "verifiedAt": "2026-11-23",
       "sourceUrl": "https://docs.x.ai/docs/pricing",
       "pageUrl": "https://aisignalhq.com/models/xai-grok-4.20-non-reasoning/"
     },
@@ -1952,7 +1974,7 @@
       "contextWindow": 1000000,
       "maxOutput": null,
       "promotion": null,
-      "verifiedAt": "2026-11-16",
+      "verifiedAt": "2026-11-23",
       "sourceUrl": "https://docs.x.ai/docs/pricing",
       "pageUrl": "https://aisignalhq.com/models/xai-grok-4.20-reasoning/"
     },
@@ -1981,7 +2003,7 @@
       "contextWindow": 1000000,
       "maxOutput": null,
       "promotion": null,
-      "verifiedAt": "2026-11-16",
+      "verifiedAt": "2026-11-23",
       "sourceUrl": "https://docs.x.ai/docs/pricing",
       "pageUrl": "https://aisignalhq.com/models/xai-grok-4.20-multi-agent/"
     },
@@ -2010,7 +2032,7 @@
       "contextWindow": 1000000,
       "maxOutput": null,
       "promotion": null,
-      "verifiedAt": "2026-11-16",
+      "verifiedAt": "2026-11-23",
       "sourceUrl": "https://docs.x.ai/docs/pricing",
       "pageUrl": "https://aisignalhq.com/models/xai-grok-4.3/"
     },
@@ -2039,7 +2061,7 @@
       "contextWindow": 500000,
       "maxOutput": null,
       "promotion": null,
-      "verifiedAt": "2026-11-16",
+      "verifiedAt": "2026-11-23",
       "sourceUrl": "https://docs.x.ai/docs/pricing",
       "pageUrl": "https://aisignalhq.com/models/xai-grok-4.5/"
     },
@@ -2068,7 +2090,7 @@
       "contextWindow": 500000,
       "maxOutput": null,
       "promotion": null,
-      "verifiedAt": "2026-11-16",
+      "verifiedAt": "2026-11-23",
       "sourceUrl": "https://docs.x.ai/docs/pricing",
       "pageUrl": "https://aisignalhq.com/models/xai-grok-4.6/"
     },
@@ -2097,7 +2119,7 @@
       "contextWindow": 500000,
       "maxOutput": null,
       "promotion": null,
-      "verifiedAt": "2026-11-16",
+      "verifiedAt": "2026-11-23",
       "sourceUrl": "https://docs.x.ai/docs/pricing",
       "pageUrl": "https://aisignalhq.com/models/xai-grok-4.7/"
     },
@@ -2126,7 +2148,7 @@
       "contextWindow": 256000,
       "maxOutput": null,
       "promotion": null,
-      "verifiedAt": "2026-11-16",
+      "verifiedAt": "2026-11-23",
       "sourceUrl": "https://docs.x.ai/docs/pricing",
       "pageUrl": "https://aisignalhq.com/models/xai-grok-build-0.1/"
     }
