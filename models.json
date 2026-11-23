@@ -2,11 +2,11 @@
   "name": "AI Signal LLM API pricing dataset: current models",
   "publisher": "AI Signal",
   "homepage": "https://aisignalhq.com/data/",
-  "generatedAt": "2026-11-23T07:33:53.855Z",
+  "generatedAt": "2026-11-23T08:58:57.534Z",
   "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
   "attribution": "LLM API pricing data by AI Signal (https://aisignalhq.com/api-pricing/), licensed under CC BY 4.0.",
-  "rowCount": 87,
+  "rowCount": 86,
   "rows": [
     {
       "id": "alibaba/qwen3.7-flash",
@@ -2122,35 +2122,6 @@
       "verifiedAt": "2026-11-23",
       "sourceUrl": "https://docs.x.ai/docs/pricing",
       "pageUrl": "https://aisignalhq.com/models/xai-grok-4.7/"
-    },
-    {
-      "id": "xai/grok-build-0.1",
-      "apiId": "grok-build-0.1",
-      "maker": "xai",
-      "makerName": "xAI",
-      "name": "Grok Build 0.1",
-      "status": "current",
-      "priceStatus": "priced",
-      "inputPerMTok": 1,
-      "outputPerMTok": 2,
-      "cachedInputPerMTok": 0.2,
-      "cacheWritePerMTok": null,
-      "cacheWrite1hPerMTok": null,
-      "priceRegion": null,
-      "longPromptTiers": [
-        {
-          "condition": "prompt ≥ 200000 tokens",
-          "input": 2,
-          "output": 4,
-          "cachedInput": 0.4
-        }
-      ],
-      "contextWindow": 256000,
-      "maxOutput": null,
-      "promotion": null,
-      "verifiedAt": "2026-11-23",
-      "sourceUrl": "https://docs.x.ai/docs/pricing",
-      "pageUrl": "https://aisignalhq.com/models/xai-grok-build-0.1/"
     }
   ]
 }
