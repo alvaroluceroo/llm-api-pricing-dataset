@@ -2,11 +2,11 @@
   "name": "AI Signal LLM API pricing dataset: current models",
   "publisher": "AI Signal",
   "homepage": "https://aisignalhq.com/data/",
-  "generatedAt": "2026-11-23T08:58:57.534Z",
+  "generatedAt": "2026-11-24T07:03:14.281Z",
   "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
   "attribution": "LLM API pricing data by AI Signal (https://aisignalhq.com/api-pricing/), licensed under CC BY 4.0.",
-  "rowCount": 86,
+  "rowCount": 85,
   "rows": [
     {
       "id": "alibaba/qwen3.7-flash",
@@ -364,28 +364,6 @@
       "verifiedAt": "2026-11-23",
       "sourceUrl": "https://platform.claude.com/docs/en/about-claude/pricing",
       "pageUrl": "https://aisignalhq.com/models/anthropic-claude-mythos-5-2/"
-    },
-    {
-      "id": "anthropic/claude-opus-4-5",
-      "apiId": "claude-opus-4-5-20251101",
-      "maker": "anthropic",
-      "makerName": "Anthropic",
-      "name": "Claude Opus 4.5",
-      "status": "current",
-      "priceStatus": "priced",
-      "inputPerMTok": 5,
-      "outputPerMTok": 25,
-      "cachedInputPerMTok": 0.5,
-      "cacheWritePerMTok": 6.25,
-      "cacheWrite1hPerMTok": 10,
-      "priceRegion": null,
-      "longPromptTiers": [],
-      "contextWindow": 200000,
-      "maxOutput": 64000,
-      "promotion": null,
-      "verifiedAt": "2026-11-23",
-      "sourceUrl": "https://platform.claude.com/docs/en/about-claude/pricing",
-      "pageUrl": "https://aisignalhq.com/models/anthropic-claude-opus-4-5/"
     },
     {
       "id": "anthropic/claude-opus-4-6",
