@@ -1,5 +1,7 @@
 # LLM API pricing dataset
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24525641.svg)](https://doi.org/10.5281/zenodo.24525641)
+
 Prices of the current large language model APIs, as published by their makers, with the day each price was last verified and the maker's page it was read from, plus a record of every change to those prices. This is the data behind the [LLM API pricing table](https://aisignalhq.com/api-pricing/) of [AI Signal](https://aisignalhq.com/), published here as files so it can be versioned, diffed and cited.
 
 The same files are served at [aisignalhq.com/data/](https://aisignalhq.com/data/). This repository is a mirror of them: every commit is a snapshot of what the site published that day.
@@ -119,9 +121,12 @@ For a paper, use [CITATION.cff](CITATION.cff) (GitHub's "Cite this repository" b
   title        = {{LLM API pricing dataset}},
   howpublished = {AI Signal, \url{https://aisignalhq.com/api-pricing/}},
   note         = {Version of YYYY-MM-DD, CC BY 4.0. Mirror: \url{https://github.com/alvaroluceroo/llm-api-pricing-dataset}},
-  year         = {2026}
+  year         = {2026},
+  doi          = {10.5281/zenodo.24525641}
 }
 ```
+
+DOI: https://doi.org/10.5281/zenodo.24525641 (all versions; each release archived on Zenodo has its own version DOI).
 
 Replace `YYYY-MM-DD` with the day of the copy you used (the `generatedAt` of the file, or the commit date). Prices move: a citation without that day does not say which prices you read.
 

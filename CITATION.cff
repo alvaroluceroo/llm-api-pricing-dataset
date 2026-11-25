@@ -27,7 +27,11 @@ keywords:
   - model deprecations
   - open data
   - dataset
-# identifiers:
-#   - type: doi
-#     value: "10.5281/zenodo.XXXXXXX"
-#     description: "Concept DOI (all versions), from Zenodo"
+doi: "10.5281/zenodo.24525641"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.24525641"
+    description: "Concept DOI (all versions), from Zenodo"
+  - type: doi
+    value: "10.5281/zenodo.24525642"
+    description: "Version DOI of v2026.11.25, from Zenodo"
