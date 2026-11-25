@@ -2,11 +2,11 @@
   "name": "AI Signal LLM API pricing dataset: recorded price changes",
   "publisher": "AI Signal",
   "homepage": "https://aisignalhq.com/data/",
-  "generatedAt": "2026-11-24T07:03:14.285Z",
+  "generatedAt": "2026-11-25T08:42:42.045Z",
   "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
   "attribution": "LLM API pricing data by AI Signal (https://aisignalhq.com/api-pricing/), licensed under CC BY 4.0.",
-  "rowCount": 37,
+  "rowCount": 38,
   "rows": [
     {
       "id": "google-flash-promo-ends",
@@ -112,6 +112,25 @@
       "summary": "Gemini 4 Carbon pricing is introductory until November 30, 2026. On December 1, 2026 it doubles: input from $2.00 to $4.00 and output from $10.00 to $20.00 per million tokens, the list prices Google shows next to the introductory ones.",
       "sourceUrl": "https://aistudio.google.com/docs/pricing",
       "pageUrl": "https://aisignalhq.com/price-changes/#google-gemini-4-carbon-promo-ends"
+    },
+    {
+      "id": "mistral-cached-input-no-longer-published",
+      "effectiveDate": "2026-11-25",
+      "provider": "mistral",
+      "kind": "provider",
+      "direction": "withdrawn",
+      "multiplier": null,
+      "affects": [
+        "mistral/mistral-small-4",
+        "mistral/codestral",
+        "mistral/ministral-3-3b",
+        "mistral/ministral-3-8b",
+        "mistral/ministral-3-14b"
+      ],
+      "figures": [],
+      "summary": "Mistral stopped publishing a cached input price for Mistral Small 4, Codestral and Ministral 3 3B, 8B and 14B; their input and output prices are unchanged. The last reading with the figures was AI Signal's reading of November 24, 2026, for example 'Mistral Small 4 ↗ | $0.15 | $0.015 | $0.6 |' and 'Codestral ↗ | $0.3 | $0.03 | $0.9 |'. On November 25, 2026, after a redesign of its documentation, Mistral's pricing page prints '-' in the Cached input column of the five ('Mistral Small 4 | $ 0.15 | - | $ 0.6 |', 'Codestral | $ 0.3 | - | $ 0.9 |'), and their model pages print only input and output. Mistral's prompt caching guide says 'Cached tokens are billed at 10% of the standard input token price.' but does not name the models it applies to, so AI Signal shows no cached input price for these five rows. The exact day of the change is not known; the date here is the first day it was seen.",
+      "sourceUrl": "https://docs.mistral.ai/inference/pricing",
+      "pageUrl": "https://aisignalhq.com/price-changes/#mistral-cached-input-no-longer-published"
     },
     {
       "id": "openai-gpt-6-rosalind-price-down",
