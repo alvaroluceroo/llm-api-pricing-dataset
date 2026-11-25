@@ -89,18 +89,42 @@ The files are regenerated on every build of aisignalhq.com, and a new commit is 
 
 ## Licence
 
-The data is licensed under the [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/) licence. You may copy, share and adapt it, including commercially, provided you give attribution. See [LICENSE](LICENSE).
+The data is licensed under the [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/) licence. You may copy, share and adapt it, including commercially, provided you give attribution. [LICENSE](LICENSE) holds the license's official legal code. Copyright (c) 2026 AI Signal (https://aisignalhq.com/).
 
-## Attribution
+## Data source
 
-Attribution line, ready to copy, for a page, an app or a chart:
+Every row comes from AI Signal, which reads each price on the maker's own page and keeps the page and the day:
+
+- [LLM API pricing table](https://aisignalhq.com/api-pricing/): the same rows, with the day each price was verified and a link to the maker's page; each model's page quotes the line of that page the price was read from.
+- [Methodology](https://aisignalhq.com/methodology/): how each price is read and re-checked every week, and what that does not guarantee.
+- [Price changes](https://aisignalhq.com/price-changes/): every entry of `price-changes.json`, newest first, with its source.
+- [Deprecations](https://aisignalhq.com/deprecations/): shutdown dates and replacements, each quoted from the maker's deprecation page. Deprecated and retired models are not in `models.json`; they are listed there.
+- [Guides](https://aisignalhq.com/guides/): plain answers about AI assistants (privacy, free plans, student offers, image, video and voice API prices), each quoted from the company's own page with the date it was read.
+
+## How to cite
+
+For a page, an app or a chart, the attribution line:
 
 ```
 LLM API pricing data by AI Signal (https://aisignalhq.com/api-pricing/), licensed under CC BY 4.0.
 ```
 
-Link to [aisignalhq.com](https://aisignalhq.com/api-pricing/) and say whether you changed the data. For a single price, citing the maker's page in `sourceUrl` as well is the most checkable form. For papers, use [CITATION.cff](CITATION.cff) (GitHub's "Cite this repository" button).
+Say whether you changed the data. For a single price, cite the maker's page in `sourceUrl` too: it is the most checkable form.
+
+For a paper, use [CITATION.cff](CITATION.cff) (GitHub's "Cite this repository" button) or:
+
+```bibtex
+@misc{lucero_llm_api_pricing,
+  author       = {Lucero Rufino, Álvaro},
+  title        = {{LLM API pricing dataset}},
+  howpublished = {AI Signal, \url{https://aisignalhq.com/api-pricing/}},
+  note         = {Version of YYYY-MM-DD, CC BY 4.0. Mirror: \url{https://github.com/alvaroluceroo/llm-api-pricing-dataset}},
+  year         = {2026}
+}
+```
+
+Replace `YYYY-MM-DD` with the day of the copy you used (the `generatedAt` of the file, or the commit date). Prices move: a citation without that day does not say which prices you read.
 
 ## Errors
 
-To report an error, open an issue here or write to the editor from the [About page](https://aisignalhq.com/about/#contact).
+To report an error, open an issue here or write to the editor from the [contact page](https://aisignalhq.com/contact/).

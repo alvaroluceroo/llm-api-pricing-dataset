@@ -1,0 +1,19 @@
+{
+  "title": "LLM API pricing dataset",
+  "upload_type": "dataset",
+  "description": "<p>Prices of current large language model APIs as published by their makers, each with the day it was last verified and the maker's page it was read from, plus a dated record of every change to those prices (models.json, models.csv, price-changes.json).</p><p>This is the data behind the LLM API pricing table of AI Signal, <a href=\"https://aisignalhq.com/api-pricing/\">aisignalhq.com/api-pricing/</a>. How each price is verified, and what that does not guarantee: <a href=\"https://aisignalhq.com/methodology/\">aisignalhq.com/methodology/</a>. The authoritative source for every price is the maker's page in sourceUrl.</p>",
+  "creators": [
+    { "name": "Lucero Rufino, Álvaro", "affiliation": "AI Signal" }
+  ],
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "language": "eng",
+  "keywords": ["LLM", "API pricing", "large language models", "price changes", "model deprecations", "open data"],
+  "related_identifiers": [
+    { "identifier": "https://aisignalhq.com/api-pricing/", "relation": "isSupplementTo", "resource_type": "other" },
+    { "identifier": "https://aisignalhq.com/methodology/", "relation": "isDocumentedBy", "resource_type": "other" },
+    { "identifier": "https://aisignalhq.com/data/", "relation": "isIdenticalTo", "resource_type": "dataset" },
+    { "identifier": "https://huggingface.co/datasets/alvaroluceroo/llm-api-pricing", "relation": "isIdenticalTo", "resource_type": "dataset" }
+  ],
+  "notes": "Each GitHub release archived by Zenodo is a snapshot of the files the site published that day. verifiedAt on each row, not the release date, says when its price was last confirmed."
+}

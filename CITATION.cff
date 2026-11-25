@@ -4,18 +4,30 @@ type: dataset
 title: "LLM API pricing dataset"
 abstract: >-
   Prices of current large language model APIs as published by their makers,
-  with the day each price was last verified and the source page, plus a
-  record of every change to those prices. Mirror of https://aisignalhq.com/data/.
+  each with the day it was last verified and the maker's page it was read
+  from, plus a dated record of every change to those prices. The data behind
+  the LLM API pricing table of AI Signal (https://aisignalhq.com/api-pricing/).
 authors:
-  - name: "AI Signal"
-    website: "https://aisignalhq.com/"
   - family-names: "Lucero Rufino"
     given-names: "Álvaro"
+    website: "https://aisignalhq.com/author/alvaro-lucero/"
+  - name: "AI Signal"
+    website: "https://aisignalhq.com/"
+version: "2026.11.25"
+date-released: "2026-11-25"
 license: CC-BY-4.0
-url: "https://aisignalhq.com/data/"
+url: "https://aisignalhq.com"
 repository: "https://github.com/alvaroluceroo/llm-api-pricing-dataset"
+repository-artifact: "https://huggingface.co/datasets/alvaroluceroo/llm-api-pricing"
 keywords:
   - llm
   - api pricing
   - large language models
+  - price changes
+  - model deprecations
+  - open data
   - dataset
+# identifiers:
+#   - type: doi
+#     value: "10.5281/zenodo.XXXXXXX"
+#     description: "Concept DOI (all versions), from Zenodo"
